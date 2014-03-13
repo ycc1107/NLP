@@ -1,0 +1,70 @@
+Inflation-indexed bonds (also known as inflation-linked bonds or colloquially as linkers) are bonds where the principal is indexed to inflation. They are thus designed to cut out the inflation risk of an investment.[1] The first known inflation-indexed bond was issued by the Massachusetts Bay Company in 1780.[2] The market has grown dramatically since the British government began issuing inflation-linked Gilts in 1981. As of 2008, government-issued inflation-linked bonds comprise over $1.5 trillion of the international debt market.[3] The inflation-linked market primarily consists of sovereign bonds, with privately issued inflation-linked bonds constituting a small portion of the market.
+See also: inflation derivative
+Contents  [hide] 
+1 Structure
+1.1 Real Yield
+2 Global issuance
+3 Inflation-indexed bond indices
+4 See also
+5 References
+6 External links
+6.1 Print
+Structure[edit]
+
+Inflation-indexed bonds pay a periodic coupon that is equal to the product of the inflation index and the nominal coupon rate. The relationship between coupon payments, breakeven inflation and real interest rates is given by the Fisher equation. A rise in coupon payments is a result of an increase in inflation expectations, real rates, or both.
+For some bonds, such as the Series I Savings Bonds (U.S.), the interest rate is adjusted according to inflation.
+For other bonds, such as in the case of TIPS, the underlying principal of the bond changes, which results in a higher interest payment when multiplied by the same rate. For example, if the annual coupon of the bond were 5% and the underlying principal of the bond were 100 units, the annual payment would be 5 units. If the inflation index increased by 10%, the principal of the bond would increase to 110 units. The coupon rate would remain at 5%, resulting in an interest payment of 110 x 5% = 5.5 units.
+Real Yield[edit]
+The real yield of any bond is the annualized growth rate, less the rate of inflation over the same period. This calculation is often difficult in principle in the case of a nominal bond, because the yields of such a bond are specified for future periods in nominal terms, while the inflation over the period is an unknown rate at the time of the calculation. However, in the case of inflation-indexed bonds such as TIPS, the bond yield is specified as a rate in excess of inflation, so the real yield can be easily calculated using a standard bond calculation formula.[4]
+Global issuance[edit]
+
+The most liquid instruments are Treasury Inflation-Protected Securities (TIPS), a type of US Treasury security, with about $500 billion in issuance. The other important inflation-linked markets are the UK Index-linked Gilts with over $300 billion outstanding and the French OATi/OAT€i market with about $200 billion outstanding. Germany, Canada, Greece, Australia, Italy, Japan, Sweden and Iceland also issue inflation-indexed bonds, as well as a number of Emerging Markets, most prominently Brazil.[5] [6]
+Country	Issue	Issuer	Inflation Index
+United States	Treasury Inflation-Protected Securities (TIPS)[7]	US Treasury	US Consumer Price Index
+United States	Series I Inflation-Indexed Savings Bonds (I-Bonds - domestic retail bonds)[8]	US Treasury	US Consumer Price Index
+United Kingdom	Index-linked Gilt	UK Debt Management Office	Retail Price Index (RPI)
+United Kingdom	Index-linked Savings Certificates (domestic retail bonds)	National Savings and Investments	Retail Price Index (RPI)
+France	OATi and OAT€i[9]	Agence France Trésor	France CPI ex-tobacco (OATi), EU HICP ex-tobacco (OAT€i)
+Canada	Real Return Bond (RRB)[10]	Bank of Canada	Canada All-Items CPI
+Australia	Capital Indexed Bonds (CAIN series)	Department of the Treasury (Australia)	Weighted Average of Eight Capital Cities: All-Groups Index
+Germany	Bund index. and BO index.	Bundesrepublik Deutschland Finanzagentur	EU HICP ex Tobacco
+Greece			EU HICP ex Tobacco
+Hong Kong	iBond (domestic retail bonds)	Hong Kong Government	Composite Consumer Price Index
+Italy	BTP€i	Department of the Treasury	EU HICP ex Tobacco
+India		Reserve Bank of India	Wholesale Price Index
+Italy	BTP Italia (domestic retail bonds)	Department of the Treasury	Italy CPI ex tobacco
+Japan	JGBi	Ministry of Finance (Japan)	Japan CPI (nationwide, ex-fresh-food)
+Sweden	Index-linked treasury bonds	Swedish National Debt Office	Swedish CPI
+Iceland			
+Inflation-indexed bond indices[edit]
+
+See also: Bond market index
+Inflation-indexed bond indices include the family of Barclays Inflation Linked Bond Indices,[11] such as the Barclays Inflation Linked Euro Government Bond Indices, and the Lehman Brothers U.S. Treasury: U.S. TIPS index.[12]
+See also[edit]
+
+Fisher equation
+Constant Item Purchasing Power Accounting
+References[edit]
+
+Jump up ^ Unfortunately, income taxes bring some inflation risk back to such bonds. See tax on the inflation tax.
+Jump up ^ Shiller. "The Invention of Inflation-Indexed Bonds in Early America"., "Both Principal and Interest to be paid in the then current Money of said STATE, in a greater or less SUM, according as Five Bushels of CORN, Sixty-eight Pounds and four-seventh Parts of a Pound of BEEF, Ten Pounds of SHEEPS WOOL, and Sixteen Pounds of SOLE LEATHER shall then cost, more or less than One Hundred and Thirty Pounds current money, at the then current Prices of said ARTICLES.
+Jump up ^ Barclays Capital Research A (2008-02-20). "Global Inflation-Linked Products: A User's Guide =====".
+Jump up ^ Frank J. Fabozzi, CFA (17 February 2003). The Handbook of Financial Instruments. John Wiley & Sons. pp. 207–208. ISBN 978-0-471-44560-9. Retrieved 1 January 2013.
+Jump up ^ "Real Return Bonds". Retrieved 2006-06-30.
+Jump up ^ Swinkels, L. "Emerging Markets Inflation Linked Bonds". Retrieved 2011-06-28.
+Jump up ^ "TIPS In Depth". Retrieved 2006-06-30.
+Jump up ^ "Series I Savings Bonds". Retrieved 2008-04-09.
+Jump up ^ "OAT€is AND BTAN€is". Retrieved 2006-06-30.
+Jump up ^ "Government of Canada Market Debt Instruments". Retrieved 2009-10-26.
+Jump up ^ "Barclays Capital: Inflation Linked Bond Index".
+Jump up ^ "Lehman Brothers: Global Family of Indices - Daily Returns".
+External links[edit]
+
+TIPS
+U.S. Series I Savings Bonds
+Inflation-linked Gilts
+French inflation-indexed bonds
+Print[edit]
+Deacon, Mark, Andrew Derry, and Dariush Mirfendereski; Inflation-Indexed Securities: Bonds, Swaps, and Other Derivatives (2nd edition, 2004) Wiley Finance. ISBN 0-470-86812-0.
+Benaben, Brice, and Sebastien Goldenberg (ed.); Inflation Risks and Products (Dec. 2008) Riskbooks. ISBN 978-1-906348-07-6.
+Canty, Paul and Markus Heider; "Inflation Markets: A Comprehensive and Cohesive Guide" (2012) Risk Books. ISBN 9781906348755.

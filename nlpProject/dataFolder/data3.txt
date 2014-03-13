@@ -1,0 +1,678 @@
+Stack Exchange Inbox Reputation and Badges  8 3  help  
+
+
+Stack Overflow
+Questions
+Tags
+Users
+Badges
+Unanswered
+Ask Question
+Text editor to open big (giant, huge, large) text files [closed]
+
+up vote
+737
+down vote
+favorite
+225
+I mean 100+ MB big; such text files can push the envelope of editors.
+
+I need to look through a large XML file, but cannot if the editor is buggy.
+
+Any suggestions?
+
+windows xml editor text-editor large-files
+share|edit
+edited Mar 14 '10 at 20:24
+
+community wiki
+6 revs, 5 users 56%
+Dave Jarvis
+126	  	
+Actually, text files of 100+ MB or even 1+ GB is not as uncommon as you may think (i.e. log files from busy servers). –  Anders Sandvig Dec 19 '08 at 19:18
+39	  	
+If you'd like to generate a massive text file on linux or on a mac, you can go into terminal and type "cat /dev/urandom > huge.txt". A few seconds will get you 10MB (94,000 lines of crap). Not exactly relevant but somebody might want to know. –  Sneakyness Aug 6 '09 at 0:36
+14	  	
+Sneakyness: And not exactly text. I think the requirements of reading text files and reading binary files differ somewhat. You might pass it through base64 or uuencode, though. –  Јοеу Aug 16 '09 at 10:24
+8	  	
+@Anders: 1GB+ log files? Yikes! Have you never heard of logrotate? –  Thanatos Jul 19 '10 at 2:11
+18	  	
+@Thanatos I have, but that doesn't mean everyone who writes software or configures servers have... –  Anders Sandvig Jul 21 '10 at 10:54
+show 17 more comments
+closed as not constructive by Kev Jan 27 '12 at 1:47
+As it currently stands, this question is not a good fit for our Q&A format. We expect answers to be supported by facts, references, or expertise, but this question will likely solicit debate, arguments, polling, or extended discussion. If you feel that this question can be improved and possibly reopened, visit the help center for guidance.
+If this question can be reworded to fit the rules in the help center, please edit the question.
+
+49 Answers
+activeoldestvotes
+1 2 next
+up vote
+499
+down vote
+accepted
+I'm assuming that you're on Windows, so I'll recommend gVim. Where Notepad++ will choke on very large files, VIM has chowed through those puppies with little problem.
+
+010Editor on Windows will open GIANT (think 5GB) files in binary mode and allow you to edit and search the text.
+
+Community wiki:
+
+Suggestions are
+
+gVim loads entire file into memory first.
+SlickEdit
+Emacs (has a low maximum buffer size limit if compiled in 32-bit mode).
+Large Text File Viewer (read only)
+glogg (read only)
+PilotEdit (loads entire file into memory first).
+HxD hex editor, but good for large files.
+Text editors with 2GB limit: Notepad++, Jujuedit, TextPad
+
+share|edit
+edited Jan 13 at 9:36
+
+community wiki
+9 revs, 6 users 29%
+Martin Ba
+32	  	
+VIM, or Emacs... pick your poison, both will handle any file you throw at them. I personally prefer Emacs, but both will beat notepad without so much as a hiccup. –  Mike Stone Oct 2 '08 at 8:46
+19	  	
+Emacs has a maximum buffer size, dependent on the underlying architecture (32 or 64 bits). I think that on 32 bit systems you get "maximum buffer size exceeded" error on files larger than 128 MB. –  Rafał Dowgird May 8 '09 at 13:45
+6	  	
+I just tried Notepad++ with a 561MB log file and it said it was too big –  barfoon Jun 2 '09 at 14:12
+8	  	
+@Rafal Interesting! Looks like on 64bit it is ~1024 petabytes. The reason has to do with the fact that emacs has to track buffer positions (such as the point) –  baudtack Jul 1 '09 at 23:31
+42	  	
+But be careful, vim will only work as long as the files in question have enough line breaks. I once had to edit a ca. 150 MB file without any line breaks, and had to resort to gedit because vim couldnt handle it. –  Benno Jan 29 '10 at 16:47
+show 29 more comments
+
+up vote
+98
+down vote
+Why are you using editors to just look at a (large) file?
+
+Under *nix or cygwin, just use less ("less is more", only better, since you can back up). Searching and navigating under less is very similar to vim, but there is no swap file and little RAM used.
+
+Update Jan 2012 (thanks for the tip, ChristophK): there is a native Win32 port of GNU "less". See the comment below.
+
+Piggybacking off of some of the comments below, perl's ".." (range flip/flop) operator makes a nice selection mechanism to limit the crud you have to wade through, as well
+
+E.g.:
+
+$ perl -n -e 'print if ( 1000000 .. 2000000)' humongo.txt | less
+(start at line 1 million and stop at line 2 million, sift the output manually in "less")
+
+$ perl -n -e 'print if ( /interesting regex/ .. /boring regex/)' humongo.txt | less
+(start when the "interesting regular expression" finds something, stop when the "boring regular expression" find the end of an interesting block -- may find multiple blocks, sift the output...)
+
+Finally, 100 MB isn't too big. 3 GB is getting kinda big. I used to work at a print & mail facility that created about 2 % of U.S. first class mail. One of the systems for which I was the tech lead accounted for about 15+ % of the pieces of mail. We had some big files to debug here and there :-)
+
+Community Wiki Suggestions:
+
+Use LogParser to look at the file:
+
+logparser.exe -i:textline -o:tsv "select Index, Text from 'c:\path\to\file.log' where line > 1000 and line < 2000"
+
+logparser.exe -i:textline -o:tsv "select Index, Text from 'c:\path\to\file.log' where line like '%pattern%'"
+share|edit
+edited Apr 12 '13 at 14:31
+
+community wiki
+4 revs, 2 users 69%
+Roboprog
+5	  	
++1, I recently had some really huge xml files (+1 gigabyte) that I needed to look at. I'm on windows and both vim, emacs, notepad++ and several other editors completely choked on the file to the point where my system almost became unusable when trying to open the file. After a while I realized how unnecessary it was to actually attempt to open the file in an -editor- when I just needed to -view- it. Using cygwin (and some clever grep/less/sed-magic) I easily found the part I was interested in and could read it without any hassle. –  wasatz Apr 23 '10 at 11:56
+6	  	
+you don't need cygwin for less, you can also use it under windows: gnuwin32.sourceforge.net/packages/less.htm –  ChristophK Nov 2 '11 at 9:33
+2	  	
+This XML editor here has also a large file viewer component and does provide syntax coloring also for huge files. The files are not loaded completely into memory so a multi-GB document shouldn't be a problem. In addition this tool can also validate those big XML documents ... In my opinion one of the best approaches to work with huge XML data. –  lichtfusion Apr 21 '13 at 12:38
+show 3 more comments
+up vote
+54
+down vote
+I've found that UltraEdit32 (non free) does pretty well loading large text files (including XML).
+
+share|edit
+edited Oct 4 '11 at 23:07
+
+community wiki
+2 revs, 2 users 67%
+Gil Milow
+6	  	
+i just opened a 150mb SQL dump in UEStudio, and after a short loading pause, it worked fine. Scrolling was a bit jerky, but not bad for a file with 2.4 million lines. –  nickf Dec 17 '08 at 7:46
+2	  	
+I regularly use UltraEdit for very large files, binary and text, and it always works well. –  bramp Apr 23 '10 at 11:40
+show 4 more comments
+up vote
+34
+down vote
+I've been using EmEditor (non free) and it handles huge text files with no problem. (hundreds of MB and up)
+
+share|edit
+edited Oct 4 '11 at 23:07
+
+community wiki
+2 revs, 2 users 80%
+whichdan
+10	  	
+EmEditor is the most efficient editor for large files that I've seen. It was specifically designed for this. Most importantly, it doesn't load the entire file into memory like most editors. –  fatcat1111 Aug 13 '09 at 22:58
+1	  	
++1: Free 30-day trial, Portable (doesn't need installer), Doesn't Hang. Works great for large files. –  notfed Jan 6 at 3:24 
+add comment
+up vote
+29
+down vote
+My vote is for EditPad. There are lite and pro versions with not much difference between them. I regularly open files of >>100Mb. Plus it lets you select columns of text!
+
+Now EditPad Lite, it is free for personal use. Open large text file instantly.
+
+share|edit
+edited Jul 19 '12 at 15:02
+
+community wiki
+2 revs, 2 users 75%
+b3.
+1	  	
+EditPad (even Pro) does not support files larger than 2 GB –  Serge S. Apr 17 '11 at 20:10
+3	  	
+@SergeanT: It does since version 7. –  Tim Pietzcker Jan 8 '12 at 14:16
+show 3 more comments
+up vote
+26
+down vote
+Here's another vote to NOT use Notepad++. We are working with huge XML files at my work and Notepad++ will choke on them every-time.
+
+Surprisingly Wordpad performs better on these types of files than Notepad++. I've also had success with UltraEdit although I'm downloading gVIM now to see how it performs.
+
+If you are just looking to validate a large file I've asked that question here and gotten some good responses (XMLStartlet is a nice command line app)
+
+http://stackoverflow.com/questions/40663/validating-a-huge-xml-file
+
+share|edit
+answered Oct 1 '08 at 20:34
+
+community wiki
+Dan Cramer
+1	  	
+How big is huge? I opened a 300mb log file in notepad++ earlier and didn't have any problems viewing/scrolling/searching though it did take maybe 10 seconds or so to open. –  Loftx Mar 10 '10 at 12:47
+1	  	
+Turn off the syntax highlighting and it will work OK (~500 MB xml). –  ansgri Apr 12 '12 at 22:59
+1	  	
+When I attempted to open a ~3GB XML file it said the file was too large to be opened by Notepad++. –  DiskCrasher Jan 9 at 20:55
+show 3 more comments
+up vote
+20
+down vote
+One thing is how big files your editor can edit theoretically. But another thing is, is it fast enough to realistically edit that file.
+
+Most editors use the easy way and simply load the whole file in memory. This means that you can not edit files larger than the largest free memory block. This gets even worse if the editor converts ASCII file into Unicode, which doubles the size. With editors like this, just opening the file may take several minutes. But even if you can load the file, any editing operations may be so slow that you really can not do anything.
+
+For editing huge files, VEDIT (non free) is the best choice. It is marketed as the fastest editor on Earth, and it is probably true. In addition, VEDIT uses very little of memory and does not create huge tmp files no matter how big files you are editing. The standard (32-bit) version of VEDIT can edit files up to 2 GB (but you can edit larger files by using the built-in splitter function). VEDIT Pro64 can directly handle files of any size.
+
+UltraEdit is OK, too, but it is not as fast as VEDIT and you may need to change configuration and sacrifice backup and undo for editing large files.
+
+I just opened (copy of) my Outlook .pst file (297 MB) on VEDIT. Opening the file took approximately 0.1 seconds! Searching for a string that was found near the end of file took 8.0 sec in normal mode and 1.1 sec in read-only mode. Inserting and deleting characters were instantenous, as was undo. Saving the file took 11 seconds.
+
+Opening the same file to Ultraedit took 9.8 sec in normal mode and about 1.0 sec if tmp files were disabled. Searching took 11.5 sec (using read-only mode did not have effect on this). Inserting and deleting characters were instantenous, but undo a single character insert took 26 seconds. Saving the file took 16 seconds.
+
+I tried to open the file in Notepad, but it crashed (probably because the file is binary). Opening a 92 MB text file took 3 minutes.
+
+Attempt to load the file on Eclipse default editor caused error "out of java heap space". The same happened even with the 92 MB file.
+
+For more information about many text editors, see:
+Wikipedia: Comparison of text editors
+
+share|edit
+edited Oct 4 '11 at 23:08
+
+community wiki
+3 revs, 2 users 99%
+PauliL
+4	  	
+To clarify, albeit a bit pedantically: Editors using UTF-16 (a specific encoding) will use twice as much memory for files that are not encoded in UTF-16. A Unicode editor using UTF-8 internally opening a UTF-8 file will not use twice as much memory. Nor will a UTF-16 editor opening a UTF-16 file. "Unicode" != "twice as much RAM" –  Thanatos Jul 19 '10 at 2:18
+add comment
+up vote
+17
+down vote
+Okay, I've tried it with Visual Studio, Emacs and gVim (64 bit).
+
+Emacs chokes, VS opens it but is too sluggish, and gVim kicks ass. I just tried an intentionally generated 500 meg file on gVim, and it opens that too fine without much trouble :)
+
+share|edit
+answered Oct 2 '08 at 4:38
+
+community wiki
+Yuvi
+2	  	
+vim is good. vim is best –  eddiegroves May 9 '09 at 10:49
+3	  	
+This may help: vim.org/scripts/script.php?script_id=1506 –  Jeremy Stein Aug 27 '09 at 19:59
+show 4 more comments
+up vote
+13
+down vote
+My normal standby is Notepad++, but in this case I have to post specifically to recommend against it. It can handle reasonably large files okay in most cases, but it really struggles with large Xml data.
+
+Something else worth noting: many so-called text editors will treat Xml as more than just text. They'll do validation, folding, and try to create a DOM, resulting in a memory image much larger than the file itself.
+
+Notepad++ is doing something like this, but other editors may do it as well.
+
+share|edit
+edited Oct 2 '08 at 2:16
+
+community wiki
+2 revs
+Joel Coehoorn
+add comment
+up vote
+11
+down vote
+If you're running Windows, TheGun (6144 bytes of MASM goodness) is awesome for this sort of thing - I've opened corrupt mbox files many hundreds of megabytes without a hitch:
+
+http://www.movsd.com/thegun.htm
+
+Another one you may want to consider is Programmer's File Editor (PFE) which is "capable of opening enormous files (limited only by the total amount of virtual memory available)":
+
+http://www.simtel.net/product.php?url_fb_product_page=11983
+
+share|edit
+answered Jul 1 '09 at 23:15
+
+community wiki
+Miles
+9	  	
+Editors should be able to read files larger than the virtual memory at a minimum. It's just a bit of fseek() and fread() –  Charlie Somerville Dec 9 '09 at 10:59
+4	  	
+Big thumbs down on TheGun. I think this guy's silly obsession with small EXE sizes and 100% ASM OMG got in the way of making the thing work right. When I did a search of a keyword in a 3GB file that exists near the end, it found nothing. Fail. –  Scott Bilas Nov 15 '10 at 19:21
+2	  	
+TheGun appears to load the entire file into RAM... –  rogerdpack Oct 4 '11 at 23:35
+show 1 more comment
+up vote
+9
+down vote
+I try to open a 3GB log file in gVim... I stopped the process as it took too long. While in the process of opening the file the *.swp file was growing... I guess it would grow till about the same size of the file itself at the end... I didn't want this. Solution:
+
+:set noswapfile might help speeding things up.
+
+I got this from a nice article from Peter Chen
+
+share|edit
+answered Jun 16 '09 at 11:29
+
+community wiki
+user87400
+show 1 more comment
+up vote
+6
+down vote
+BBEdit on the Mac will handle them just fine.
+
+Otherwise VIM (or vim -R if you don't need to edit it) will handle it just fine as well.
+
+share|edit
+answered Oct 1 '08 at 20:25
+
+community wiki
+mwilliams
+show 4 more comments
+up vote
+6
+down vote
+TextPad is the cheapest and best option to open files nearing GBs in size.
+
+share|edit
+answered Apr 23 '10 at 11:37
+
+community wiki
+Abdullah Akbar
+add comment
+up vote
+6
+down vote
+I just viewed a 1-GB file with SciTE, no big deal.
+
+And surprisingly, it's based on the same thing as Notepad++ -- Scintilla. In fact, it was made to demonstrate Scintilla.
+
+If you compile SciTE as 64-bit and replace all int's with intptr_t's (ditto with unsigned stuff) and do some magic by hand (there's a handful of things you have to change, like some static casts, but it's surprisingly not too much manual work, if you do the replacements correctly), you can actually compile it with platform-dependent integer sizes -- which means it probably works with files > 4 GiB big!
+
+Here is a (highly-customized!) 64-bit version of SciTE which I've compiled myself. Obviously open it at your own risk ;) but I thought it might be helpful, in case you aren't feeling adventurous enough to compile it yourself. :)
+
+I can't try it myself with files over 4 GiB (my laptop only has 6 GiB of RAM, and SciTE requires at least twice the file size in RAM), but if someone can try it, I'd love to know whether or not it works -- please post a comment!
+
+I'd forgotten about the page file! I just opened a 4.1-GiB file with my version of SciTE no problems (although it took a while for it to load -- you might really want some RAM here). It definitely works!
+
+share|edit
+edited Sep 6 '11 at 10:02
+
+community wiki
+2 revs
+Mehrdad
+add comment
+up vote
+6
+down vote
+I have used Textpad for opening a 500+ meg xml file. It was too good. Opened without any glitch.
+
+share|edit
+edited Jul 19 '12 at 15:07
+
+community wiki
+2 revs, 2 users 67%
+j0k
+add comment
+up vote
+5
+down vote
+I can attest to Cream. http://cream.sourceforge.net/
+
+Loaded, edited and saved an 850mb file for me in less than a minute. Since it's based on gVim, all the other testimonials for gVim would apply.
+
+Failures: Notepad++, Large Text File Viewer, Notepad2
+
+share|edit
+answered May 14 '10 at 4:46
+
+community wiki
+Mykro
+show 5 more comments
+up vote
+5
+down vote
+I find a regular web browser has no trouble opening large files. I just opened a 220,047kb file on old IE6 without a problem.
+
+share|edit
+answered Jun 29 '10 at 19:16
+
+community wiki
+user295190
+7	  	
+So IE does have a use after all! –  Nathan Osman Mar 5 '11 at 0:57
+add comment
+up vote
+5
+down vote
+I usually use TextPad for anything over 1GB.
+
+Sometimes I have to go hunting through debug logs that are 3-4GB in size, and TextPad is the only thing i have found that will open them (and quickly as well, while still being able to perform searches and normal editing)
+
+I think most decent text editors will open files of a couple of hundred MB. Hell, windows notepad will, if you give it a few minutes to chew away at it, and are not expecting to use the pc for anything else in the meantime)
+
+But for anything over a few hundred MB, I suggest TextPad.
+
+(Please note, my normal editor of choice for anything else is Notepad++, but it struggle with anything over 300MB or so)
+
+share|edit
+answered Jul 19 '10 at 2:10
+
+community wiki
+Etienne
+add comment
+up vote
+4
+down vote
+I've opened and browsed 100MB text files with SlickEdit.
+
+share|edit
+answered Oct 1 '08 at 20:43
+
+community wiki
+Sean
+show 2 more comments
+up vote
+4
+down vote
+I've opened 20+ meg log files in Emacs without it breaking a sweat, I can't imagine it would falter at 100+ meg files. There are builds of it for windows too.
+
+UPDATE:
+
+I just on a whim tested a very simple generated XML file in Emacs... 140mb file, and it handled it beautifully. Syntax coloring and everything worked fine, a slight delay when opening the file, but no more than a few seconds. Same with going to the end of the file... otherwise, absolutely no problems.
+
+share|edit
+edited Oct 2 '08 at 8:41
+
+community wiki
+2 revs
+Mike Stone
+1	  	
+emacs23 (even in fundamental mode) will choke on just a 2MB XML file that is all one line. After reformatting to multiple lines with GNU textutils, emacs is still painfully sluggish with xml-mode syntax highlighting. –  p00ya Aug 30 '10 at 6:41
+show 3 more comments
+up vote
+4
+down vote
+This morning I needed to review on Windows O/S a 1.2GB IIS log file. gVim took too long to load the file. I tried the LTF Viewer. Nice application for Windows environment. A Windows compliment to Unix/Linux/BSD's "less".
+
+share|edit
+edited Nov 28 '12 at 10:52
+
+community wiki
+2 revs, 2 users 67%
+Tim Neto
+show 1 more comment
+up vote
+3
+down vote
+gVIM all the way - I opened a 1 gig text file on windows, there was an initial delay of about 15 secs, but after that it was as smooth as anything. gVIM on Unix was smoother & quicker than on windows.
+
+share|edit
+answered May 9 '09 at 4:13
+
+community wiki
+anokun7
+show 2 more comments
+up vote
+3
+down vote
+I tried the following programs: gVim, Notepad++, SQL Work Bench, and 'The Gun'.
+
+Out of all of them, 'The Gun' seems to work the best.
+
+share|edit
+answered Aug 27 '09 at 19:41
+
+community wiki
+bigal
+add comment
+up vote
+3
+down vote
+EditPlus works fine for multi-hundred-megabyte files. Been using it for more years than I care to remember.
+
+share|edit
+answered Aug 27 '09 at 19:54
+
+community wiki
+Trevor Harrison
+show 1 more comment
+up vote
+3
+down vote
+Disk-based file editing: http://www.ultraedit.com/ (Windows only)
+
+share|edit
+answered Aug 27 '09 at 20:04
+
+community wiki
+Marian
+add comment
+up vote
+3
+down vote
+I've opened Wikipedia dumps (you may guess the size). So far best option here is gVim. But as it is XML file, you can sneak peek into it (check well-formedness, count entries) with things like Apache Xalan.
+
+share|edit
+answered Dec 9 '09 at 10:52
+
+community wiki
+Kuroki Kaze
+add comment
+up vote
+3
+down vote
+XML Copy Editor is a fast, open-source XML editor designed to handle huge files.
+
+Windows and Linux binaries (as well as source) are available and I heard that new versions will also include Mac releases.
+
+Great XML editor — I've used it for over three years.
+
+http://xml-copy-editor.sourceforge.net/
+
+share|edit
+answered Apr 24 '10 at 16:25
+
+community wiki
+Roger_S
+show 1 more comment
+up vote
+3
+down vote
+sed
+
+share|edit
+edited Aug 15 '10 at 8:03
+
+community wiki
+2 revs, 2 users 86%
+ZeroCool
+show 1 more comment
+up vote
+3
+down vote
+I needed one that was a little less technical than Vim and Emacs and free. I found that ConTEXT does a great job handling big files.
+
+share|edit
+answered Jun 22 '11 at 9:58
+
+community wiki
+Pascal Lindelauf
+show 1 more comment
+up vote
+1
+down vote
+Nano works just fine.
+
+share|edit
+answered Aug 6 '09 at 0:50
+
+community wiki
+Sneakyness
+add comment
+1 2 next
+protected by Community♦ Sep 9 '11 at 3:11
+This question is protected to prevent "thanks!", "me too!", or spam answers by new users. To answer it, you must have earned at least 10 reputation on this site.
+
+Not the answer you're looking for?	 Browse other questions tagged windows xml editor text-editor large-files or ask your own question.
+asked
+5 years ago
+viewed
+536384 times
+active
+1 month ago
+
+Lead Drupal Dev @ Health & Fitness Start Up with Awesome…
+Greatist
+New York, NY
+Senior Developer
+uSell.com
+New York, NY
+Big Data Search Developer
+OpenCrowd
+New York, NY
+More jobs near New York...
+Linked
+0 Text Editor for gigabyte sized files
+0 which editor or IDE are you using when one file is over 20000 lines?
+43 Best Free Text Editor Supporting *More Than* 4GB Files?
+33 Linux text editor for working with huge files
+29 Have I reached the limits of the size of objects JavaScript in my browser can handle?
+14 How to read large text file on windows?
+23 Validating a HUGE XML file
+7 Emacs To read Large Files ~14GB
+3 How to edit 300 GB text file (genomics data)?
+1 Comparing large xml files
+see more linked questions…
+Related
+43 Best Free Text Editor Supporting *More Than* 4GB Files?
+4 Graphical open source text editor for large text files (> 200 MBytes)
+14 How to read large text file on windows?
+29 Text editor theory
+0 Large text file editor with compare feature?
+1 Text editor to view giant log files
+4 XML Editor for Very Large files
+0 Large log file open text editor
+0 insert numerical sequence in large text file
+0 Text editor to open network files?
+Hot Network Questions
+Is there such thing as "touchscreen-friendly" user interface?
+What to do if assignment is against student's religion?
+Protecting Servers from Dust
+Looking for a specific symbol used in set theory, can't find on detexify
+ArcPy Cursor iteration update
+Project Manager asks for complete 100% confidence everytime committing code
+Can a system be 100% Data Driven?
+How secure is Java's hashCode()?
+Alphanumeric Hello World
+How a half-life works
+What? No error?
+Can humans eat grass?
+Logic to test for 3 of 4
+How to tell an over-confident student they still have a lot to learn?
+"Cut their hawsers"
+Why does the Stack Overflow swag request form have six address lines?
+What the heck is a lambic?
+How to deal with players asking for an "infodump"
+Specialized bike store or general sports shop
+Repeat a command every x interval of time?
+Encountered unexpected growth Transaction log file size
+Why should I use a pointer rather than the object itself?
+Published on blog but taken down: Still remains previously-published?
+Is negative energy (or chanelling it) necessarily evil?
+about help blog chat data legal privacy policy jobs advertising info mobile contact us feedback
+TECHNOLOGY	 LIFE / ARTS	 CULTURE / RECREATION	 SCIENCE	 OTHER
+Stack Overflow
+Server Fault
+Super User
+Web Applications
+Ask Ubuntu
+Webmasters
+Game Development
+TeX - LaTeX
+Programmers
+Unix & Linux
+Ask Different (Apple)
+WordPress Development
+Geographic Information Systems
+Electrical Engineering
+Android Enthusiasts
+Information Security
+Database Administrators
+Drupal Answers
+SharePoint
+User Experience
+Mathematica
+more (14)
+Photography
+Science Fiction & Fantasy
+Seasoned Advice (cooking)
+Home Improvement
+Personal Finance & Money
+more (12)
+English Language & Usage
+Skeptics
+Mi Yodeya (Judaism)
+Travel
+Christianity
+Arqade (gaming)
+Bicycles
+Role-playing Games
+more (21)
+Mathematics
+Cross Validated (stats)
+Theoretical Computer Science
+Physics
+MathOverflow
+more (7)
+Stack Apps
+Meta Stack Overflow
+Area 51
+Stack Overflow Careers
+site design / logo © 2014 stack exchange inc; user contributions licensed under cc by-sa 3.0 with attribution required
+rev 2014.3.7.1431
