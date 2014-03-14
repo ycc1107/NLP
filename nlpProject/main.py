@@ -7,6 +7,7 @@ import re
 import sys
 from os import walk
 from google.appengine.api import search
+from google.appengine.ext import ndb
 from urllib import urlopen
 # global var
 
@@ -17,8 +18,6 @@ class MainPage(webapp2.RequestHandler):
         #self.response.out.write(template.render())
         self.response.out.write(page.pageChange())
         
-
-            
 
 class SearchFile():
     def __init__(self,userInput=''):
@@ -32,8 +31,6 @@ class SearchFile():
                 self.__files.append(path)
                 self.__filenames.append(name)
             break
-
-
     def outPutData(self):
         iterator = range(0,len(self.__filenames))
         for i in iterator:
@@ -56,10 +53,17 @@ class SearchFileHandle(webapp2.RequestHandler):
         
         for key,value in search.outPutData().iteritems():
             keyBold = "<b>%s</b><br>"%(key)
-            keyLink = "<a href = \"files/%s\" target = \"_self\" name =\"%s\"> %s </a>"%(key,key,keyBold)
+            keyLink = "<a href = \"dataFolder/%s\" name =\"%s\"> %s </a>"%(key,key,keyBold)
             self.response.out.write(keyLink)      
             #print >>sys.stderr, "====>", re.search(regex, value,re.IGNORECASE)
-            self.response.out.write(tramText.tram(value,userInput))   
+            resultContain = tramText.tram(value,userInput)
+            for word in resultContain.split(" "):
+                if word in userInput:
+                    for keyWord in userInput.split(" "):
+                        if word == keyWord:
+                            self.response.out.write(" <b>%s</b> "%(word))
+                else:
+                    self.response.out.write(" %s "%(word))
             self.response.out.write("<br><br><br>")    
         news =  TakeNews()
         for key,value in news.websiteRead(userInput).iteritems():
@@ -67,6 +71,7 @@ class SearchFileHandle(webapp2.RequestHandler):
             keyLink = "<a href = %s> %s </a>"%(value,keyBold)
             self.response.out.write(keyLink)
             self.response.out.write("<br><br><br>")
+    
     
 class WordsProcess():
     def __init__(self,words):
@@ -86,8 +91,6 @@ class CropText():
             return ''
         
         
-
-
 class TakeNews():
     def __init__(self):
         self.__website = 'http://www.bloomberg.com'
@@ -118,6 +121,7 @@ class TakeNews():
             if userInput in self.__topNews[i]:
                 result[self.__topNewsTitle[i]] = self.__website+"/"+self.__topNews[i]
         return result
+      
          
 class ContainHandle(webapp2.RequestHandler):
     def get(self):
