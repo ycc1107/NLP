@@ -2,6 +2,9 @@ The academic project
 
 language: python
 
-API : google app engine
+API : google 
 
-Goal: to abstract meaning of user input and return the summary of search. Search execute by google  
+Goal: 
++ to abstract meaning of user input and expend input
++ pass the input to google 
++ return the summary of search. Search execute by google  
