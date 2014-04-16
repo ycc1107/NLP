@@ -29,5 +29,5 @@ page ="""
 
 class HTML_PAGE():
     def pageChange(self,input=''):
-        return page%(input)
+        print page%(input)
         
