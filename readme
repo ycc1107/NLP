@@ -16,3 +16,14 @@ Query area:
 +NLP
 
 
+The Project goal
+
+web application: a web page for submitting serch queries and display results. This page should be hosted on a server,
+either local or on the web. It should have the functionality of submitting the search query to the service for getting
+search results and annotating with snippets and getting results from this service. the web application can be 
+implemented in any language.
+
+Snippet generating service will consist of three parts:document retrieval service,document analysis service , 
+and snippet delivery service. The document retrieval service will accept search query requests,make calls to Google or 
+Bing API, retrieve line from the API, and retrieve the documents that these line point to. The document analysis service 
+will analyze there documents to generate snippets.
