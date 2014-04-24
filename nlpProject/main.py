@@ -6,7 +6,6 @@ class TrainningMode():
     def train(self):
         pass
 
-
 def main():
     test = UserInput()
     test.result("the born place of Mo ZeDong")
