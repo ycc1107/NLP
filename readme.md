@@ -2,7 +2,7 @@ The academic project
 
 language: python
 
-API : google 
+API : google customer search api for python 
 
 Goal: 
 + to abstract meaning of user input and expend input
