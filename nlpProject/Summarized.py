@@ -1,12 +1,16 @@
 import SummarizedCore
 
 class Summary():
-    def simpleSummary(self,userInput,key):
+    def simpleSummary(self,googleResult,key):
         ss = SummarizedCore.SimpleSummarizer()
-        temp = ss.getSummarized(userInput,key) 
+        temp = ss.getSummarized(googleResult,key) 
         result = ""
-        for line in temp.split("."):
-            if not line.strip():
-                continue
-            result = result +" "+ line
+        try:
+            for line in temp.split("."):
+                if not line.strip():
+                    continue
+                result = result +" "+ line
+        except:
+            pass
+        
         return result

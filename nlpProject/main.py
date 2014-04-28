@@ -8,7 +8,7 @@ class TrainningMode():
 
 def main():
     test = UserInput()
-    test.result("the born place of Mo ZeDong")
+    test.result("tsla")
     print "done"
     
 

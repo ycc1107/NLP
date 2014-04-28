@@ -34,7 +34,7 @@ class UserInput():
             summ = Summary()
             for res in results[0:length]:
                 print res.url.encode('utf8')
-                print summ.simpleSummary(cleanPage.cleanHTML(res.url.encode('utf8')), 2) 
+                print summ.simpleSummary(cleanPage.cleanHTML(res.url.encode('utf8')), 4) 
                 #print cleanPage.clean(res.url.encode('utf8'))
                 print    
                 

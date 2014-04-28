@@ -6,6 +6,7 @@ class Clean():
         try:
             page = urllib2.urlopen(url).read()
         except:
+            pass
             print "error"
             return ""
         soup = BeautifulSoup(page)
