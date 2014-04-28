@@ -12,7 +12,7 @@ Goal:
 
 Query area:
 + Health
-++ 10 documents  
+  + 10 documents  
 + Global Warming
 + NLP
 
