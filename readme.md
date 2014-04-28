@@ -14,7 +14,9 @@ Query area:
 + Health
   + 10 documents  
 + Global Warming
+  + 30 documents 
 + NLP
+  + 10 documents 
 
 The algorithm for summary :
 + tf-idf
