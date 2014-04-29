@@ -1,9 +1,8 @@
-from os import listdir
-from os.path import isfile, join
-from collections import defaultdict
 from nltk.corpus import stopwords
 from nltk.tokenize import RegexpTokenizer
 from os import walk
+
+import warnings
 
 import nltk
 import operator
@@ -14,11 +13,20 @@ import pickle
 
 def getWordList(path,dataCounter):
     tokenizer = RegexpTokenizer('\w+')
-    f = open(path,"rb").read()        
-    f = tokenizer.tokenize(f)
+    f = open(path,"rb").read().split(None) 
     for word in f:
-        if word not in stopwords.words('english'):
-            dataCounter[word]  =""     
+        word = tokenizer.tokenize(word)
+        if len(word) and len(word) < 2:
+            #print (word[0])
+            with warnings.catch_warnings(record=True) as w:                
+                if word[0].lower() not in stopwords.words():
+                    if len(w):
+                        print ("warning ! skip")
+                        print (word[0])
+                        continue      
+                    dataCounter[str(word[0])]  ="" 
+
+        
     return dataCounter
 
 def save_obj(obj, name ):
@@ -29,15 +37,11 @@ def load_obj(name):
     with open('../' + name + '.pkl', 'r') as f:
         return pickle.load(f)
 
-def main():
-    
-    
+def main():     
     myRootPath = "../TranningData/"
-
     globalWordList  = {}
     dataCounter = {}  #defaultdict(int)
 
-    
     for (dirpath, dirnames, filenames) in walk(myRootPath):
         for dirname in dirnames:
             path = os.path.join(dirpath, dirname)
@@ -55,15 +59,20 @@ def main():
                         f = open(filePath).read()
                         if word in f:
                             counter += 1
+                    if counter == 0:
+                        continue
                     idf = math.log(docListLen/float(counter))
-                    counter = 0
                     dataCounter[word] = idf
+                    counter = 0
                       
             globalWordList[dirname] = dataCounter
             dataCounter = {}    
-   
-    for item in globalWordList["globalWarmming"]:
-        print (item)
+    
+    print ("******************************")
+    for item in globalWordList["globalWarmming"].items():
+        if item[0] == "global":
+            print(item)
+            
     #save_obj(globalWordList, "trainedSet" )    
     print ("done")
                     #tfIdf(filePath)

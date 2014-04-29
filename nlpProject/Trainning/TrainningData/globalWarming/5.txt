@@ -1,0 +1,68 @@
+The greenhouse effect is a process by which thermal radiation from a planetary surface is absorbed by atmospheric greenhouse gases, and is re-radiated in all directions. Since part of this re-radiation is back towards the surface and the lower atmosphere, it results in an elevation of the average surface temperature above what it would be in the absence of the gases.[1][2]
+
+Solar radiation at the frequencies of visible light largely passes through the atmosphere to warm the planetary surface, which then emits this energy at the lower frequencies of infrared thermal radiation. Infrared radiation is absorbed by greenhouse gases, which in turn re-radiate much of the energy to the surface and lower atmosphere. The mechanism is named after the effect of solar radiation passing through glass and warming a greenhouse, but the way it retains heat is fundamentally different as a greenhouse works by reducing airflow, isolating the warm air inside the structure so that heat is not lost by convection.[2][3][4]
+
+If an ideal thermally conductive blackbody were the same distance from the Sun as the Earth is, it would have a temperature of about 5.3 °C. However, since the Earth reflects about 30%[5][6] of the incoming sunlight, this idealized planet's effective temperature (the temperature of a blackbody that would emit the same amount of radiation) would be about −18 °C.[7][8] The surface temperature of this hypothetical planet is 33 °C below Earth's actual surface temperature of approximately 14 °C.[9] The mechanism that produces this difference between the actual surface temperature and the effective temperature is due to the atmosphere and is known as the greenhouse effect.[10]
+
+Earth’s natural greenhouse effect makes life as we know it possible. However, human activities, primarily the burning of fossil fuels and clearing of forests, have intensified the natural greenhouse effect, causing global warming.[11]
+
+Contents  [hide] 
+1 History
+2 Mechanism
+3 Greenhouse gases
+4 Role in climate change
+5 Real greenhouses
+6 Bodies other than Earth
+7 See also
+8 References
+9 Further reading
+10 External links
+History
+Main article: History of climate change science
+The existence of the greenhouse effect was argued for by Joseph Fourier in 1824. The argument and the evidence was further strengthened by Claude Pouillet in 1827 and 1838, and reasoned from experimental observations by John Tyndall in 1859, and more fully quantified by Svante Arrhenius in 1896.[12][13]
+
+In 1917 Alexander Graham Bell wrote “[The unchecked burning of fossil fuels] would have a sort of greenhouse effect”, and “The net result is the greenhouse becomes a sort of hot-house.”[14][15] Bell went on to also advocate for the use of alternate energy sources, such as solar energy.[16]
+
+Mechanism
+The Earth receives energy from the Sun in the form UV, visible, and near IR radiation, most of which passes through the atmosphere without being absorbed. Of the total amount of energy available at the top of the atmosphere (TOA), about 50% is absorbed at the Earth's surface. Because it is warm, the surface radiates far IR thermal radiation that consists of wavelengths that are predominantly much longer than the wavelengths that were absorbed (the overlap between the incident solar spectrum and the terrestrial thermal spectrum is small enough to be neglected for most purposes). Most of this thermal radiation is absorbed by the atmosphere and re-radiated both upwards and downwards; that radiated downwards is absorbed by the Earth's surface. This trapping of long-wavelength thermal radiation leads to a higher equilibrium temperature than if the atmosphere were absent.
+
+This highly simplified picture of the basic mechanism needs to be qualified in a number of ways, none of which affect the fundamental process.
+
+
+
+The solar radiation spectrum for direct light at both the top of the Earth's atmosphere and at sea level
+
+
+Synthetic stick absorption spectrum of a simple gas mixture corresponding to the Earth's atmosphere composition based on HITRAN data [17] created using Hitran on the Web system.[18] Green color - water vapor, red - carbon dioxide, WN - wavenumber (caution: lower wavelengths on the right, higher on the left).
+The incoming radiation from the Sun is mostly in the form of visible light and nearby wavelengths, largely in the range 0.2–4 μm, corresponding to the Sun's radiative temperature of 6,000 K.[19] Almost half the radiation is in the form of "visible" light, which our eyes are adapted to use.[20]
+About 50% of the Sun's energy is absorbed at the Earth's surface and the rest is reflected or absorbed by the atmosphere. The reflection of light back into space—largely by clouds—does not much affect the basic mechanism; this light, effectively, is lost to the system.
+The absorbed energy warms the surface. Simple presentations of the greenhouse effect, such as the idealized greenhouse model, show this heat being lost as thermal radiation. The reality is more complex: the atmosphere near the surface is largely opaque to thermal radiation (with important exceptions for "window" bands), and most heat loss from the surface is by sensible heat and latent heat transport. Radiative energy losses become increasingly important higher in the atmosphere largely because of the decreasing concentration of water vapor, an important greenhouse gas. It is more realistic to think of the greenhouse effect as applying to a "surface" in the mid-troposphere, which is effectively coupled to the surface by a lapse rate.
+The simple picture assumes a steady state. In the real world there is the diurnal cycle as well as seasonal cycles and weather. Solar heating only applies during daytime. During the night, the atmosphere cools somewhat, but not greatly, because its emissivity is low, and during the day the atmosphere warms. Diurnal temperature changes decrease with height in the atmosphere.
+Within the region where radiative effects are important the description given by the idealized greenhouse model becomes realistic: The surface of the Earth, warmed to a temperature around 255 K, radiates long-wavelength, infrared heat in the range 4–100 μm.[19] At these wavelengths, greenhouse gases that were largely transparent to incoming solar radiation are more absorbent.[19] Each layer of atmosphere with greenhouses gases absorbs some of the heat being radiated upwards from lower layers. It re-radiates in all directions, both upwards and downwards; in equilibrium (by definition) the same amount as it has absorbed. This results in more warmth below. Increasing the concentration of the gases increases the amount of absorption and re-radiation, and thereby further warms the layers and ultimately the surface below.[8]
+Greenhouse gases—including most diatomic gases with two different atoms (such as carbon monoxide, CO) and all gases with three or more atoms—are able to absorb and emit infrared radiation. Though more than 99% of the dry atmosphere is IR transparent (because the main constituents—N2, O2, and Ar—are not able to directly absorb or emit infrared radiation), intermolecular collisions cause the energy absorbed and emitted by the greenhouse gases to be shared with the other, non-IR-active, gases.
+Greenhouse gases
+Main article: Greenhouse gas
+By their percentage contribution to the greenhouse effect on Earth the four major gases are:[21][22]
+
+
+Atmospheric gases only absorb some wavelengths of energy but are transparent to others. The absorption patterns of water vapor (blue peaks) and carbon dioxide (pink peaks) overlap in some wavelengths. Carbon dioxide is not as strong a greenhouse gas as water vapor, but it absorbs energy in wavelengths (12-15 micrometers) that water vapor does not, partially closing the “window” through which heat radiated by the surface would normally escape to space. (Illustration NASA, Robert Rohde)[23]
+Strengthening of the greenhouse effect through human activities is known as the enhanced (or anthropogenic) greenhouse effect.[24] This increase in radiative forcing from human activity is attributable mainly to increased atmospheric carbon dioxide levels.[25] According to the latest Assessment Report from the Intergovernmental Panel on Climate Change, "most of the observed increase in globally averaged temperatures since the mid-20th century is very likely due to the observed increase in anthropogenic greenhouse gas concentrations".[26]
+
+CO2 is produced by fossil fuel burning and other activities such as cement production and tropical deforestation.[27] Measurements of CO2 from the Mauna Loa observatory show that concentrations have increased from about 313 ppm[28] in 1960 to about 389 ppm in 2010. It reached the 400ppm milestone on May 9, 2013.[29] The current observed amount of CO2 exceeds the geological record maxima (~300 ppm) from ice core data.[30] The effect of combustion-produced carbon dioxide on the global climate, a special case of the greenhouse effect first described in 1896 by Svante Arrhenius, has also been called the Callendar effect.
+
+Over the past 800,000 years,[31] ice core data shows that carbon dioxide has varied from values as low as 180 parts per million (ppm) to the pre-industrial level of 270ppm.[32] Paleoclimatologists consider variations in carbon dioxide concentration to be a fundamental factor influencing climate variations over this time scale.[33][34]
+
+Real greenhouses
+
+
+A modern Greenhouse in RHS Wisley
+The "greenhouse effect" of the atmosphere is named by analogy to greenhouses which get warmer in sunlight, but the mechanism by which the atmosphere retains heat is different.[35] A greenhouse works primarily by allowing sunlight to warm surfaces inside the structure, but then preventing absorbed heat from leaving the structure through convection, i.e. sensible heat transport. The "greenhouse effect" heats the Earth because greenhouse gases absorb outgoing radiative energy, heating the atmosphere which then emits radiative energy with some of it going back towards the Earth.
+
+A greenhouse is built of any material that passes sunlight, usually glass, or plastic. It mainly heats up because the Sun warms the ground inside, which then warms the air in the greenhouse. The air continues to heat because it is confined within the greenhouse, unlike the environment outside the greenhouse where warm air near the surface rises and mixes with cooler air aloft. This can be demonstrated by opening a small window near the roof of a greenhouse: the temperature will drop considerably. It has also been demonstrated experimentally (R. W. Wood, 1909) that a "greenhouse" with a cover of rock salt (which is transparent to infra red) heats up an enclosure similarly to one with a glass cover.[3] Thus greenhouses work primarily by preventing convective cooling.[4][36]
+
+In contrast, the greenhouse effect heats the Earth because rather than retaining (sensible) heat by physically preventing movement of the air, greenhouse gases act to warm the Earth by re-radiating some of the energy back towards the surface. This process may exist in real greenhouses, but is comparatively unimportant there.
+
+Bodies other than Earth
+In the Solar System, Mars, Venus, and the moon Titan also exhibit greenhouse effects; that on Venus is particularly large, due to its atmosphere, which consists mainly of dense carbon dioxide.[37] Titan has an anti-greenhouse effect, in that its atmosphere absorbs solar radiation but is relatively transparent to infrared radiation. Pluto also exhibits behavior superficially similar to the anti-greenhouse effect.[38][39]
+
+A runaway greenhouse effect occurs if positive feedbacks lead to the evaporation of all greenhouse gases into the atmosphere.[40] A runaway greenhouse effect involving carbon dioxide and water vapor is thought to have occurred on Venus.[41]

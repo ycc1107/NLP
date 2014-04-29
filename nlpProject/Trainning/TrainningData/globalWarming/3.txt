@@ -1,0 +1,59 @@
+‘Mind blowing paper’ blames ENSO for Global Warming Hiatus
+Posted on August 28, 2013	 by Bob Tisdale
+Note: Dr. Judith Curry also has an essay on this important paper. She writes:
+
+My mind has been blown by a new paper just published in Nature.
+
+Just when I least expected it, after a busy day when I took a few minutes to respond to a query from a journalist about a new paper just published in Nature [link to abstract]:
+
+This has important implications for IPCC’s upcoming AR5 report, where they will attempt to give attribution to the warming, which now looks more and more like a natural cycle. See updates below.  – Anthony
+
+Guest essay by Bob Tisdale
+
+The recently published climate model-based paper Recent global-warming hiatus tied to equatorial Pacific surface cooling [Paywalled] by Yu Kosaka and Shang-Ping Xie has gained a lot of attention around the blogosphere. Like Meehl et al (2012) and Meehl et al (2013), Kosaka and Xie blame the warming stoppage on the recent domination of La Niña events. The last two sentences of Kosaka and Xie (2013) read:
+
+
+Our results show that the current hiatus is part of natural climate variability, tied specifically to a La-Niña-like decadal cooling. Although similar decadal hiatus events may occur in the future, the multi-decadal warming trend is very likely to continue with greenhouse gas increase.
+
+Anyone with a little common sense who’s reading the abstract and the hype around the blogosphere and the Meehl et al papers will logically now be asking: if La Niña events can stop global warming, then how much do El Niño events contribute? 50%? The climate science community is actually hurting itself when they fail to answer the obvious questions.
+
+And what about the Atlantic Multidecadal Oscillation (AMO)? What happens to global surface temperatures when the AMO also peaks and no longer contributes to the warming?
+
+The climate science community skirts the common-sense questions, so no one takes them seriously.
+
+UPDATE
+
+Another two comments:
+
+Kosaka and Xie (2013) appear to believe the correlation between their model and observed temperatures adds to the credibility of their findings.  They write in the abstract:
+
+Although the surface temperature prescription is limited to only 8.2% of the global surface, our model reproduces the annual-mean global temperature remarkably well with correlation coefficient r = 0.97 for 1970–2012 (which includes the current hiatus and a period of accelerated global warming).
+
+Kosaka and Xie (2013) used the observed sea surface temperatures of the central and eastern equatorial Pacific as an input to their climate model. By doing so they captured the actual El Niño-Southern Oscillation (ENSO) signal. ENSO is the dominant mode of natural variability on the planet.  In layman terms, El Niño and La Niña events are responsible for the year-to-year wiggles.  It’s therefore not surprising that when they added the source of the wiggles, the models included the wiggles, which raised the correlation coefficient.
+
+Table 1 from Kosaka and Xie (2013) is also revealing.  The “HIST” experiment is for the climate model forced by manmade greenhouse gases and other forcings, and the “POGA-H” adds the tropical Pacific sea surface temperature data to the “HIST” forcings. For the modeled period of 1971-1997, adding the ENSO signal increased the linear trend by 34%.  Maybe that’s why modeling groups exclude the multidecadal variability of ENSO by skewing ENSO to zero. That way El Niños and La Niñas don’t contribute to or detract from the warming. Unfortunately, by doing so, the models have limited use as tools to project future climate.
+
+UPDATE2 (Anthony): From Dr. Judith Curry’s essay – she writes at her blog:
+
+The results in terms of global-average surface temperature are shown in Fig 1 below:
+
+POGA-plot
+
+In Fig 1 a, you can see how well the POGA H global average surface temperature matches the observations particularly since about 1965 (note central Pacific Ocean temperatures have increasing and significant uncertainty prior to 1980).
+
+What is mind blowing is Figure 1b, which gives the POGA C simulations (natural internal variability only).   The main  ’fingerprint’ of AGW has been the detection of a separation between climate model runs with natural plus anthropogenic forcing, versus natural variability only.  The detection of AGW has emerged sometime in the late 1970′s , early 1980′s.
+
+Compare the temperature increase between 1975-1998 (main warming period in the latter part of the 20th century) for both POGA H and POGA C:
+
+POGA H: 0.68C (natural plus anthropogenic)
+POGA C:  0.4C (natural internal variability only)
+I’m not sure how good my eyeball estimates are, and you can pick other start/end dates.  But no matter what, I am coming up with natural internal variability associated accounting for significantly MORE than half of the observed warming.
+
+The paper abstract:
+
+Recent global-warming hiatus tied to equatorial Pacific surface cooling
+
+Yu Kosaka & Shang-Ping Xie Nature (2013) doi:10.1038/nature12534
+
+Despite the continued increase in atmospheric greenhouse gas concentrations, the annual-mean global temperature has not risen in the twenty-first century1, 2, challenging the prevailing view that anthropogenic forcing causes climate warming. Various mechanisms have been proposed for this hiatus in global warming3, 4, 5, 6, but their relative importance has not been quantified, hampering observational estimates of climate sensitivity. Here we show that accounting for recent cooling in the eastern equatorial Pacific reconciles climate simulations and observations. We present a novel method of uncovering mechanisms for global temperature change by prescribing, in addition to radiative forcing, the observed history of sea surface temperature over the central to eastern tropical Pacific in a climate model. Although the surface temperature prescription is limited to only 8.2% of the global surface, our model reproduces the annual-mean global temperature remarkably well with correlation coefficient r = 0.97 for 1970–2012 (which includes the current hiatus and a period of accelerated global warming). Moreover, our simulation captures major seasonal and regional characteristics of the hiatus, including the intensified Walker circulation, the winter cooling in northwestern North America and the prolonged drought in the southern USA. Our results show that the current hiatus is part of natural climate variability, tied specifically to a La-Niña-like decadal cooling. Although similar decadal hiatus events may occur in the future, the multi-decadal warming trend is very likely to continue with greenhouse gas increase.
+

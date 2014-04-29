@@ -1,0 +1,475 @@
+ABSTRACT
+    
+Artificial Intelligence (AI) is the study of how to make computers (machines) do things which, at the moment, people do better. There are many applications of the artificial intelligence. NATURAL LANGUAGE PROCESSING (NLP) is one of the upcoming applications of AI.
+Text (written or spoken) is the most appropriate means of communicating the data to its intended audience. Language is a means of effective, efficient communication. It is also a medium for recording and assimilating information; in practice, the most convenient way of representing most of the information we need. Language is vital both to our business activities and to our administration. It is also very important in many of the social, cultural and political aspects of our lives. Language is integral to our culture. It helps each of us to define ourselves. Speech recognition, understanding, and generation by computer, will make human computer interaction more efficient as well as more human. Natural language understanding by machines, will deliver our information needs with more precision and sensitivity, helping us to overcome the problem of having too much information to cope with. 
+The goal of the Natural Language Processing is to design and build software that will analyze, understand, and generate languages that humans use naturally, so that eventually you will be able to address your computer as though you were addressing another person.
+Natural Language Processing is the use of computers to process written and spoken language for some practical, useful, purpose: to translate languages, to get information from the web on text data banks so as to answer questions, to carry on conversations with machines, and to get advice about, say, pensions and so on.
+Practical applications of natural language processing are machine translation, database access, information retrieval, text categorization, extracting data from text etc.
+Still no such completely working system has developed yet but research is going on. And it may be done soon. Some basic systems are already developed like ELIZA, INTELLISHRINK, and AMALGAM etc.		
+If NLP system gets implemented completely then machine will replace man at many places as well as we can get better output at the time of retrieving information from web sites even we can say our problems in more natural language.	
+Prolog and lisp languages are very useful for building an NLP system. Programs for NLP system can also be written in languages like c, c++, java etc.
+1.    IMPORTANCE OF  NATURAL LANGUAGE 
+In some sense, natural language is at the center of human intelligence.  It is a unique and powerful ability humans have.
+"Window into our thoughts".  Observable phenomena which gives us a clue to what's going on in our minds.
+Useful to study even for other problems (e.g., memory, reminding, explanation/abduction, learning, ...)
+Many issues in natural language understanding are really issues about any sort of understanding.  Any intelligent system (planners, expert systems, etc.) must understand their environment, their inputs, before they can do their tasks.
+The kinds of knowledge used for understanding are the same as those used for planning.  E.g , the same knowledge that lets you figure out a restaurant story also helps you decide what to do when you plan to go to a restaurant. It would be nice if the same representations were used for both purposes.
+One of the hardest and most central problems in AI that involves pretty much all other problems in AI.
+
+	
+2. INTRODUCTION TO ARTIFICIAL INTELLIGENCE 
+
+2.1 Artificial Intelligence
+
+It is the science and engineering of making intelligent machines, especially intelligent computer programs. It is related to the similar task of using computers to understand human intelligence, but AI does not have to confine itself to methods that are biologically observable. As a theory in the philosophy of mind, artificial intelligence (or AI) is the view that human cognitive mental states can be duplicated in computing machinery. Accordingly, an intelligent system is nothing but an information processing system. 
+
+Discussions of AI commonly draw a distinction between weak and strong AI. Weak AI holds that suitably programmed machines can simulate human cognition. Strong AI, by contrast, maintains that suitably programmed machines are capable of cognitive mental states. The weak claim is unproblematic, since a machine, which merely simulates human cognition, need not have conscious mental states. It is the strong claim, though, that has generated the most discussion, since this does entail that a computer can have cognitive mental states. In addition to the weak/strong distinction, it is also helpful to distinguish between other related notions. First, cognitive simulation is when a device such as a computer simply has the same the same input and output as a human. Second, cognitive replication occurs when the same internal causal relations are involved in a computational device as compared with a human brain. Third, cognitive emulation occurs when a computational device has the same causal relations and is made of the same stuff as a human brain. This condition clearly precludes silicon-based computing machines from emulating human cognition. Proponents of weak AI commit themselves only to the first condition, namely cognitive simulation. Proponents of strong AI, by contrast, commit themselves to the second condition, namely cognitive replication, but not the third condition. 
+
+2.2.  Applications Of Artificial Intelligence:-
+ 
+➢	 Game Playing
+
+You can buy machines that can play master level chess for a few hundred dollars. There is some AI in them, but they play well against people mainly through brute force computation--looking at hundreds of thousands of positions. To beat a world champion by brute force and known reliable heuristics requires being able to look at 200 million positions per second. 
+ 
+➢	Speech Recognition
+
+In the 1990s, computer speech recognition reached a practical level for limited purposes. Thus United Airlines has replaced its keyboard tree for flight information by a system using speech recognition of flight numbers and city names. It is quite convenient. On the the other hand, while it is possible to instruct some computers using speech, most users have gone back to the keyboard and the mouse as still more convenient.
+ 
+➢	Understanding Natural Language
+ 
+Just getting a sequence of words into a computer is not enough. Parsing sentences is not enough either. The computer has to be provided with an understanding of the domain the text is about, and this is presently possible only for very limited domains.  
+
+
+➢	Neural Networks
+
+The field of Artificial Neural networks looks at utilizing data structures that are designed to mimic neurons within the brain to perform data recognition and classification. They can be (and have been) used for a huge variety of tasks: predicting the stock market, extract image data from radar information, controlling cars, robots - you name it. 
+
+The neat thing about neural networks is that they learn. They are basically fancy mapping functions: they will map one group of vector inputs to another, but they learn how to do this mapping themselves, either through supervised or unsupervised learning.
+
+They can be applied to areas such as sound and image processing or even robot controllers - making for more interesting research and results. 
+ 
+➢	Robotics
+
+Robotics is almost the best of both worlds since you get the "neat" factor of Artificial Intelligence coupled with the physicality of the robot – i.e., it is something you can touch, build and interact with.
+ 
+➢	Artificial Life
+
+Artificial Life is a fast moving field that looks at simulating life within a computer. It can be life in the most exact sense (mimicking biological phenomena such as digestion and nervous systems) or, more commonly, consists of abstractions of life. A lot of a-life comes in the form of cellular automata. CA are normally organized on a 2D plane and are governed by some very simple rules, from these rules some incredibly complex behavior can arise.  
+
+3.  INTRODUCTION TO NLP
+
+NATURAL LANGUAGE PROCESSING (NLP) is one of the upcoming applications of AI. The goal of the Natural Language Processing (NLP) is to design and build software that will analyze, understand, and generate languages that humans use naturally, so that eventually you will be able to address your computer as though you were addressing another person. 
+
+This goal is not easy to reach. "Understanding" language means, among other things, knowing what concepts a word or phrase stands for and knowing how to link those concepts together in a meaningful way. It's ironic that natural language, the symbol system that is easiest for humans to learn and use, is hardest for a computer to master. Long after machines have proven capable of inverting large matrices with speed and grace, they still fail to master the basics of our spoken and written languages.
+
+3.1 Components Of The Technology: -
+
+The basic processes of Natural Language Processing are shown in the diagram below. These are broadly concerned with: 
+➢	entering material into the computer, using speech, printed text or handwriting, or text either keyed in or introduced electronically 
+
+➢	recognizing the language of the material, distinguishing separate words, for example, recording it in symbolic form and validating it 
+
+➢	building an understanding of the meaning of the material, to the appropriate level for the particular application 
+
+
+➢	using this understanding in an application such as transformation (e.g. speech to text), information retrieval, or human language translation 
+
+➢	generating the medium for presenting the results of the application 
+➢	finally, presenting the results to human users via a display of some kind: a printer or a plotter; a loud speaker or the telephone. 
+ 
+ 
+        
+                          Figure 1.  Model of a Language Enabled System 
+
+	Fig.1 shows a model of a Language Enabled System. Within this general model there are, of course, many different configurations. Depending on the application of the technology, not all these components are needed. 
+
+ Natural Language Processing (NLP) is both a modern computational technology and a method of investigating and evaluating claims about human language itself. Some prefer the term Computational Linguistics in order to capture this latter function, but NLP is a term that links back into the history of Artificial Intelligence (AI), the general study of cognitive function by computational processes, normally with an emphasis on the role of knowledge representations, that is to say the need for representations of our knowledge of the world in order to understand human language with computers. 
+
+ Natural Language Processing (NLP) is the use of computers to process written and spoken language for some practical, useful, purpose: to translate languages, to get information from the web on text data banks so as to answer questions, to carry on conversations with machines, so as to get advice about, say, pensions and so on. These are only examples of major types of NLP, and there is also a huge range of lesser but interesting applications, e.g. getting a computer to decide if one newspaper story has been rewritten from another or not. NLP is not simply applications but the core technical methods and theories that the major tasks above divide up into, such as Machine Learning techniques, which is automating the construction and adaptation of machine dictionaries, modeling human agents' beliefs and desires etc. This last is closer to Artificial Intelligence, and is an essential component of NLP if computers are to engage in realistic conversations: they must, like us, have an internal model of the humans they converse with. 
+
+The Sheffield NLP group has been in existence ten years and is one of the largest and best known in the UK; we enter international competitions on best computer conversationalist, best question-answerer etc. (usually US competitions) and have won a number of these. Our major emphases in research are on the use of coded representations of meaning content, belief and knowledge, on Machine Learning techniques to derive our data from sources like the web, and on the provision of software architectures to underpin NLP research. Our GATE architecture has been installed at over 400 sites worldwide. We also see processing language on computers as a major route to understanding how the mind works, the traditional goal of Artificial Intelligence. We see NLP as the main way of using and coping with the world wide web, which means bringing intelligent machines and knowledge, including all scientific knowledge, into contact with people through conversation technology, as well as being a principal contributor to the future of electronic games and entertainment.
+
+The challenges we face stem from the highly ambiguous nature of natural language. As an English speaker you effortlessly understand a sentence like "Flying planes can be dangerous". Yet this sentence presents difficulties to a software program that lacks both your knowledge of the world and your experience with linguistic structures. Is the more plausible interpretation that the pilot is at risk, or that the danger is to people on the ground? Should "can" be analyzed as a verb or as a noun? Which of the many possible meanings of "plane" is relevant? Depending on context, "plane" could refer to, among other things, an airplane, a geometric object, or a woodworking tool. How much and what sort of context needs to be brought to bear on these questions in order to adequately disambiguate the sentence?  
+
+We address these problems using a mix of knowledge-engineered and statistical/machine-learning techniques to disambiguate and respond to natural language input. Our work has implications for applications like text critiquing, information retrieval, question answering, summarization, gaming, and translation. The grammar checkers in Office for English, French, German, and Spanish are outgrowths of our research; Encarta uses our technology to retrieve answers to user questions; Intellishrink uses natural language technology to compress cell phone messages; Microsoft Product Support uses our machine translation software to translate the Microsoft Knowledge Base into other languages. As our work evolves, we expect it to enable any area where human users can benefit by communicating with their computers in a natural way.  
+ 
+Extensive research in NLP over the past decade has brought us one of the most useful applications of AI: machine translation. If we could one day created a program that could translate (for example) English text to Japanese and vice versa without need of polishing by a professional translator then bridges of communication could be significantly widened. Our current translation programs have not yet reached this level, but they may do so very soon. In particular, NLP research also deals with speech recognition. Currently, programs that convert spoken speech into text have been widely used and are fairly dependable. 
+ 
+Recent research in Machine Translation (MT) has focused on “data-driven” systems. Such systems are “self-customizing” in the sense that they can learn the translations of terminology and even stylistic phrasing from already translated materials. Microsoft Research’s MT (MSR-MT) system is such a data-driven system, and it has been customized to translate Microsoft technical materials through the automatic processing of hundreds of thousands of sentences from Microsoft product documentation and support articles, together with their corresponding translations. This customization processing can be completed in a single night, and yields an MT system that is capable of producing output on par with systems that have required months of costly human customization.   
+ 
+ 
+4.   IMPLEMENTATION OF NLP: -
+
+By far the largest part of human linguistic communication occurs as speech.Written language is a fairly recent invention and still plays a less central role than speech in most activities.But processing written language is easier ,in some ways, than processing speech.For example to build a program that understands spoken language ,we need all the facilities of a written language understander as well as enough additional knowledge to handle all noise and ambiguities of the audio signal. Thus it is useful to divide the entire language processing problem into two tasks:
+1).  Processing written text,using lexical,syntactic ,and semantic knowledge of the language as well as the required real world information.
+2).  Processing spoken language ,using all the information needed above plus additional knowledge about phonology as well as enough added information to handle the further ambiguties that arise in speech.
+
+4.1	The Chain of Development and Application
+
+The diagram below depicts the chain of activities which are involved in Language Engineering, from research to the delivery of language-enabled and language enhanced products and services to end-users. The process of research and development leads to the development of techniques, the production of resources, and the development of standards. These are the basic building blocks.
+
+
+ 
+
+                     Figure 2: Model of Language Engineering Activities
+
+ In practice, Language Engineering is applied at two levels. At the first level there are a number of generic classes of application, such as: 
+➢	language translation 
+➢	information management (multi-lingual)
+➢	authoring (multi-lingual) 
+➢	human/machine interface (multi-lingual voice and text) 
+
+At the second level, these enabling applications are applied to real world problems across the social and economic spectrum. So, for example: 
+
+➢	information management can be used in an information service, as the basis for analysing requests for information and matching the request, against a database of text or images, to select the information accurately .
+
+➢	authoring tools are typically used in word processing systems but can also be used to generate text, such as business letters in foreign languages, as well as in conjunction with information management, to provide document management facilities 
+
+
+➢	human language translation is currently used to provide translator workbenches and automatic translation in limited domains 
+
+➢	most applications can usefully be provided with natural language user interfaces, including speech, to improve their usability. 
+
+In general, language capability is embedded in systems to enhance their performance. Language Engineering is an 'enabling technology'. 
+
+
+4.2  Main Steps In The Process:-
+       
+         Mainly we can break the process down into the following pieces:
+
+➢	Morphological Analysis:
+
+ Individual words are analysed into their components,and nonword tokens,such as punctuation,are seperated from the words.
+
+➢	syntactic analysis:
+
+ Linear sequences of words are transformed into structures that show how the words relate to each other. Some word sequences may be rejected if they violate the language's rules for how words may be combined. For example,an English syntactic analyzer would reject the sentence "Boy the go the store."
+
+➢	Semantic Analysis:
+
+ The structures created by the syntactic analyser are assigned meaning.In other words,a mapping is made between the syntactic structures and the objects in the task domain.Structures for which no such mapping is possible may be rejected.For example,in most universes,the sentence "Colorless green ideas sleep furiously" would be rejected as semantically anomolous.
+
+➢	Discourse Integration:
+
+ The meaning of an individual sentence may depend on the sentences that precede it and may influence the meaning of the sentences that follow it.For example,the word "it" in the sentence,"John wanted it",depends on the prior discourse context, while the word "John" may influence the meaning of later sentences.
+
+➢	Pragmantic Analysis:
+
+ The structure representing what was said is reinterpreted to determine what was actually meant.For example, the sentence "Do you know what time it is?" should be interpreted as a request to be told the time.
+
+
+4.2.1   Morphology(Linguistics):
+
+ 	Morphology is a subdiscipline of linguistics.It is the study of words sructure. Words are at the interface between phonology ,syntax and semantics.
+
+The components of a word form are called morphemes. Word formation rules describe how to select morphemes from the lexicon and to combine them. 
+Important concepts: 
+➢	Inflection 
+➢	Derivation 
+➢	Compounding 
+
+At the next level one analyzes the units from which words are assembled, the "morphemes." These are the smallest units of grammar: roots, prefixes, and suffixes. Native speakers recognize the morphemes as grammatically significant or meaningful. They can often be determined by a series of substitutions. 
+
+A speaker of English recognizes that "make" is a different word from "makes," so the s-suffix is a distinct morpheme. This example also illustrates the two kinds of morphemes, unbound (which are meaningful on their own) and bound (which have meaning when combined with another morpheme). Thus, the word "schoolyard" consists of two unbound morphemes ("school" and "yard"), while the word "morpheme" consists, or traditionally consisted, of two bound morphemes ("morph" and "eme"). As the example of "morpheme" reveals, bounded morphemes may become unbounded: "morph" has been adopted in linguistics for the phonological realization of a morpheme, and the verb "morph" was coined to describe a type of visual effect done with computers. 
+
+A morpheme may have different realizations (morphs) in different contexts. For example, the verb morpheme "do" of English has three quite distinct pronunciations in the words "do", "does" (with suffix "-s"), and "don't" (with "-n't"). Such alternating morphs of a morpheme are called its allomorphs. 
+
+4.2.2	Syntactic Analysis:
+
+This process must exploit the results of morphological analysis to build a structural description of the sentence. The goal of this process, called parsing, is to convert the flat list of words that forms the sentence into a structure that defines the units that are represented by that flat list.
+
+Suppose that we have an English interface to an operating system and the following sentence is typed:
+
+I want to print Bill’s .init file.
+For our example sentence, the result of parsing is shown in  below figure.                                                    
+4.2.3	Semantic Analysis:
+
+         Semantic analysis must do two important things:
+
+➢	it must map individual words into appropriate objects in the knowledge base or database.
+
+➢	It must create the correct structures to correspond to the way the meaning of the individual words combine with each other.
+For our example it is a wanting event in which the speaker wants a printing event to occur in which the speaker prints a file  whose extention is “.init” and whose owner is Bill.
+
+4.2.4	Discourse integration:
+
+	At this point, we have find out what kinds of things this sentence is about. But we do not yet know which specific individuals are being referred to. Specifically, we do not know to whom the pronoun “I” or the proper noun “Bill” refers. To pin down these references requires an appeal to a model of the current discourse context, from which we can learn that the current user-who typed the word “I”- is User068(suppose) and that the only person named “Bill” about whom we could be talking is User073. once the current referent for Bill is known, we can also determine exactly which file is being referred to:F1 is the only file with the extension “.init” that is owned by Bill.				
+One another important teminology is explained below:
+
+Phoneme:-
+
+In spoken language, a phoneme is a basic, theoretical unit of sound that can change the meaning of a word. A phoneme may well represent categorically several phonetically similar or phonologically related sounds (the relationship may not be so phonetically obvious, which is one of the problems with this conceptual scheme). 
+
+Depending on the language and the alphabet used, a phoneme may be written consistently with one letter; however, there are many exceptions to this rule (especially in English).
+ 
+When representing phonemes in linguistic writing, it is common to use 'slash' markers as quotes around the symbol that stands for the sound. For example, the phoneme for the initial consonant sound in the word "phoneme" would be written as /f/. In other words, the English grapheme is <ph>, but this digraph represents one sound /f/. Allophones, real speech variants of a phoneme, are often denoted in linguistics by the use of diacritical or other marks added to the phoneme symbols and then placed in square brackets [ ] to differentiate them from the phoneme in slant brackets / /. The conventions of orthography are then kept separate from both phonemes and allophones by the use of the markers < > to enclose the spelling. 
+
+The symbols of the international phonetic alphabet (IPA) and extended sets adapted to a particular language are often used by linguists to write phonemes, with the principle being one symbol=one categorical sound. However, there is an augmented set for writing the IPA exclusively in plain text, and it is these conventions which are used in this article.
+
+Examples of phonemes in the English language would include sounds from the set of English consonants, like /p/ and /b/. These two are most often written consistently with one letter for each sound. However, phonemes might not be so apparent in written English, such as when they are typically represented with combined letters, called digraphs, like <sh> (= SAMPA /S/) or <ch> (= SAMPA /tS/). 
+Phonology, or more specifically, phonemics, is the study of the system of phonemes of a language, although some conceptualize phonology as encompassing far more than sound segments. Thus phonology can be used as a more general term subsuming phonemics. 
+
+What may be an allophone (a sound variant belonging to the same phoneme category) in one language may be a phoneme itself in another language. In English, for example, [p] has aspirated and non-aspirated allophones, e.g. aspirated in /pIn/, but non-aspirated in /spIn/. However, in some languages (e.g., Ancient Greek), aspirated /ph/ was a phoneme distinct from both unaspirated /p/ and /b/. As another example, there is no distinction between /r/ and /l/ in Japanese, there is only one /r/ phoneme in Japanese, although the Japanese /r/ has allophones that make it sound more like an /l/ or /d/ to English speakers. The sounds /z/ and /s/ are distinct phonemes in English, but allophones in Spanish. /dZ/ (as in <Jill>) and /Z/ (as in <measure>, <rouge>) are phonemes in English, but allophones in Italian. 
+
+A sound that is a single phoneme in one language may be a phoneme cluster in another. For instance, /buts/ means leg-covering footwear in English and consists of four phonemes /b u t s/; but in Hebrew it means a kind of cloth and consists of only three phonemes /b u ts/.
+
+Of all the speech sounds that a human vocal tract can create, different languages vary considerably in the number of these sounds that they consider to be distinctive. Languages can contain from 2 to 25 vowels, and 5 to over 100 consonants (roughly, anyone know exact numbers?). The total number of phonemes in languages varies from as few as 11 in Rotokas (spoken in Papua New Guinea) and 12 in Hawaiian to as many as 141 in !Xu~ (spoken in southern Africa, in the vicinity of the Kalahari desert). These may range from familiar sounds like [t], [s] or [m] to very unusual ones produced in extraordinary ways (see: clicks, phonation, airstream mechanism). The English language is pretty close to average, using 13 vowels and over 30 consonants. This differs from the lay definition based on the Latin alphabet, where there are 21 consonants and 5 vowels (although sometimes y and w are included as vowels). 
+
+The phoneme is a structuralist abstraction that was later adapted to and formally psychologized in generative linguistics (after Chomsky and Halle). Rather than a basic mental unit of language, however, it may well be a perceptual artifact of alphabetic literacy (see the terms Phonemic awareness and Phonological awareness). If not that, it may be an epiphenomenal aspect to listening removed from face-to-face encounters, that is, text-like listening. Cf. Phone and Feature. 
+
+A language where one letter represents only one phoneme and one phoneme is representing only a letter, is called phonetic idiom, like Esperanto. 
+                                                       
+
+
+
+
+
+5.  AN  EXAMPLE OF NLP SYSTEM :-
+
+
+5.1. Eliza:-
+
+                Another field of study in NLP are story understanders, as well as chatterboxes. During the 1960s Joseph Weizenbaum created ELIZA. ELIZA created a storm of public interest in AI, as it helped thousands overcome their personal problems. ELIZA was a psychiatrist, particularly one that posed analytical questions for every answer the user gave it. Though sometimes they may have seemed ambiguous, people actually felt ELIZA could take care of their needs just as well as any other therapist. They became emotionally involved with ELIZA, even Weizenbaum's secretary demanded to be left alone with the program. The following is a transcript of ELIZA chatting with another program PARRY:
+
+Parry: I don't understand your motives.
+Eliza: Why don't you understand my motives?
+Parry: Shouldn't I be?
+Eliza: What did you say just now?
+Parry: That's just the way it is.
+Eliza: Suppose that's just the way it were not.
+Parry: So?
+Eliza: I am not sure I understand you fully.
+Parry: You harp on the same questions too much.
+Eliza: What does this similarity suggest to you?
+Parry: I don't get you.
+Eliza: Do you wish that I you did get I?
+Parry: It's about time you showed some interest in my feelings.
+Eliza: Oh? I showed some interest in your feelings?
+
+When people had started calling ELIZA intelligent, Joseph Weizenbaum went into an uproar. Technically, ELIZA was actually unable to understand people's personal problems to the depth of any other human being. ELIZA could only manipulate syntax (grammar), and check for some key words. Certainly, if someone had no knowledge of ELIZA being a program, one could easily conclude that it behaved like a human conversing, although it never really neccessary understood everything to the detail that humans do.  
+
+Coincidentally, ELIZA creates questions to help people's personal problems, while IQATS(Intelligent Question and Answer Test Summarizer) , a program written by Sam Hsiung, creates questions for test-making purposes. Unlike ELIZA, IQATS is able to learn how to ask new questions, if it is given a sample question and answer. Yet, like ELIZA, it knows and will learn only how to manipulate syntax. It will be able to ask a question about what the capital or Saudi Arabia is, however if it were given something a bit more complex, such as Martin Luther King's 'I have a dream...' speech, it would not be able to come up with questions that force people to draw inferences (Ex.: Under what context was this speech given in?); neither does it really understand what it is asking. 
+
+Many researchers realized this limitation, and as a result CONCEPTUAL DEPENDENCY(CD) theory was created. CR systems such as SAM (Script Applier Mechanism) are story understanders. When SAM is given a story, and later asked questions about it, it will answer many of those questions accurately. (Thus showing that it "understands") It can even infer. It accomplishes this through use of scripts. The scripts designate a sequence of actions that are to be performed in chronological fashion for a certain situation. A restaurant script would say that you would need to sit down by a table before you are served dinner. 
+
+The following is a small example of SAM (Script Applier Mechanism) paraphrasing a story (notice the inferences): 
+
+Input: John went to a restaurant. He sat down. He got mad. He left.
+Paraphrase: JOHN WAS HUNGRY. HE DECIDED TO GO TO A RESTAURANT. HE WENT TO ONE. HE SAT DOWN IN A CHAIR. A WAITER DID NOT GO TO THE TABLE. JOHN BECAME UPSET. HE DECIDED HE WAS GOING TO LEAVE THE RESTAURANT. HE LEFT IT. 
+
+Scripts allow CD systems to draw links and inferences between things. They are also able to classify and distinguish primitive actions. Kicking someone, for example could be a physical action that institutes 'hurt', while loving could be an emotional expression that implies 'affection'. 
+
+ELIZA is a famous computer program by Joseph Weizenbaum, which simulated a Rogerian therapist by rephrasing many of the patient's statements as questions and posing them to the patient. 
+
+It worked by simple pattern recognition and substitution of key words into canned phrases. It was so convincing, however, that there are many anecdotes about people becoming very emotionally caught up in dealing with ELIZA. All this was due to people's tendency to attach to words meanings which the computer never put there. 
+
+This became an important motivation for J. Weizenbaum to write his book Computer Power and Human Reason. From Judgment to Calculation, in which controversially he explains the limits of computers, as he wants to make clear in people's minds his opinion that the anthropomorphic views of computers are just a reduction of the human being and any lifeform for that matter. 
+
+This applet implements the classic "Eliza" program, a program that communicates in natural language. It pretends to be a Rogerian psychologist. 
+
+The original ELIZA was described by Joseph Weizenbaum in Communications of the ACM in January 1966. ELIZA was one of the first programs that attempted to communicate in natural language. The article was an attempt to demystify the behavior of the program, and included a detailed description of the program. ELIZA is based on a "script" consisting of patterns and corresponding responses. An appendiz to the article contained the complete script for the Rogerial psychologist. 
+
+5.2. Amalgam :-
+                     
+  Amalgam is a novel system developed in the Natural Language Processing group at Microsoft Research for sentence realization during natural language generation. Sentence realization is the process of generating (â€œrealizingâ€) a fluent sentence from a semantic representation. From the outset, the goal of the Amalgam project has been to build a sentence realization system in a data-driven fashion using machine learning techniques.To date, we have implemented Amalgam for both German and French, with English in the works.
+
+   	Amalgam accepts as input a logical form graph capturing the meaning of a sentence. The logical form shown here is for the German sentence â€œDie ODBC-Spezifikation definiert das Feld, das die Komponente bezeichnet, die die Meldung ausgegeben hat.â€ (from MS technical manuals)
+ 
+  	Amalgam constrains the search for a fluent sentence realization by following a linguistically informed approach that includes such component steps as labeling of phrasal projections, raising, ordering of elements within a constituent, and extraposition of relative clauses. For the above example,the following tree illustrates the transformed tree just prior to ordering.
+
+6.   BENEFITS AND LIMITATIONS OF NLP
+  
+6.1.  Benefits:
+
+The benefits to be gained from successful Natural Language Processing are immense. They include: 
+	
+➢	Improved service from our public administration and public service agencies 
+➢	Wide accessibility of information through easier use of computer systems and Information Services
+➢	Enhanced ability to compete in global markets                         
+➢	Saving time by using intelligent computer systems as our agents 
+➢	Improvements in the quality of information recorded in information systems 
+➢	Better filtering of information when we need it 
+➢	More effective international co-operation 
+➢	Improved safety through 'hands-free' operation of equipment.
+➢	Greater security through voice verification techniques 
+➢	Reduced stress in 'hands-busy' and 'eyes-busy' situations.
+➢	Better communications with foreign business partners 
+➢	Greater availability of information about other countries' goods and      
+services, employment prospects, weather and traffic conditions 
+➢	More opportunities to educate ourselves at our convenience 
+➢	Greater cohesion within Europe, turning our natural interdependence into an easier, more rewarding, working relationship.
+
+6.2 Limitations:- 
+
+➢	Ambiguity: for a computer it is very hard to take a particular meaning of the word from so many. And it is very important to understand the right meaning because otherwise the whole meaning will be changed. To take the right meaning it should be able to understand the complete situation which is very difficult for a machine. 
+
+➢	 Machine replaces man: as the NLP system gets improved at many places machine will replace the man. For example if we will get the properly working translator then no need of a person who converts one language into another. So in this way definitely the unemployment will increase.
+
+➢	NLP is not always the most natural way to communicate. Sometimes it is easier to point and click with a mouse to express an idea (e.g. ”sum that column of the spread-sheet”)
+
+7.  THE IMPACT  OF  NLP
+
+Language technologies can be applied to a wide range of problems in business and administration to produce better, more effective solutions. They can also be used in education, to help the disabled, and to bring new services both to organisations and to consumers. There are a number of areas where the impact is significant: 
+
+➢	competing in a global market 
+➢	providing information for business, administration and consumers 
+➢	offering services directly through tele-business 
+➢	supporting electronic commerce 
+➢	enabling effective communications 
+➢	ensuring easier accessibility and participation 
+➢	improving opportunities for education and self development 
+➢	enhancing entertainment, leisure and creativity. 
+
+
+7.1	Competing in a Global Market
+
+Business success increasingly depends on the ability to compete in a global marketplace. Success is based on the ability to identify markets, sell into them effectively and provide the quality of aftersales service expected by customers. There are many areas where the application of Natural Language Processing can lead to greater efficiency and reduced costs. Such applications are: 
+➢	generation of business letters and other commercial documentation in the appropriate language 
+➢	production and management of multi-lingual customer documentation 
+➢	provision of computer aided translation services 
+➢	localisation of company procedures, staff handbooks, etc. 
+➢	in-line translation of electronic communications 
+➢	globalisation and localisation of computer systems and their user interfaces. 
+
+7.2	Better Information
+
+One of the key features of an information service is its ability to deliver information which meets the immediate, real needs of its client in a focused way. It is not sufficient to provide information which is broadly in the category requested, in such a way that the client must sift through it to extract what is useful. Equally, if the way that the information is extracted leads to important omissions, then the results are at best inadequate and at worst they could be seriously misleading. 
+
+Information is available throughout the world, on the World Wide Web, for example, in different languages. In reality, however, it is only available to a client who can firstly request the information in the language in which it is recorded and then understand the language in which the information is presented. Using machine translation facilities the person seeking information will be able to complete an information request in his or her native language and receive the information in that same language, regardless of the language in which the information is recorded. 
+
+Natural Language Processing can improve the quality of information services by using techniques which not only give more accurate results to search requests, but also increase greatly the possibility of finding all the relevant information available. Use of techniques like concept searches, i.e. using a semantic analysis of the search criteria and matching them against a semantic analysis of the database, give far better results than simple keyword searches. 
+
+One of the major, direct benefits of the Information Society for the ordinary citizen will be the improvement in public service information. However, the wide accessibility of this information will depend upon Language Engineering. People who are not familiar with the conventional user interface of a computer system will be able to request information by voice and the system will guide them through the possibilities. Those who want information about other countries, which may be held in a foreign language, will be able to receive it in their own language. A good example of this is a service which is currently being developed which will provide information about job opportunities across the European Union in the native language of the potential applicant. Obviously these are jobs where language skills are not significant. The service will be available on the Internet and it is also planned to have public booths where job seekers can use the service. In a mono-lingual pilot service run in Flanders, a surprising 26% of applications for jobs were received from applicants who had seen the details on the Internet. 
+
+Natural Language Processing will make a contribution in a large number of public interest areas. Intelligence gathering for law enforcement is an interesting case. In detecting smuggling for example, there is a large amount of information available from public or commercial sources which, if collated and presented in the right way, can give clear indications of suspicious activity. Details about ship movements, manifests and company information can highlight abnormal profiles of activity. The ability of language based analysis to produce these profiles is an important aid.
+ 	
+7.3	Direct Access to Services
+
+In recent years there has been an explosion in the use of the telephone to deliver services such as banking, arranging insurance cover, and providing help desk facilities. The advantage of this type of service to the customer is that it provides a rapid response, 'around the clock'. For the supplier it is cost-effective because the business does not have to be conducted from expensive retail premises. Using speaker identification and speech recognition techniques it is possible to automate many of these services. A customer's telephone call can be dealt with by a computer system which is capable of having a meaningful dialogue with the caller and delivering the service to the customer's satisfaction. Perhaps the most obvious example today is the automation of the telephone banking services which are already available from many banks. The customer, telephoning the service would be answered by a computer which would, firstly, analyse the characteristics of the customer's voice to identify it and verify the customer's rights of access to the service. Then a dialogue would be conducted between the customer and the computer to establish the services required and to complete any transactions needed, e.g. paying a bill, providing a statement and so forth. Other examples could be ordering tickets for the theatre, making reservations for a journey by rail, ship, or aeroplane, and home shopping via cable television. 	
+
+Apart from the economic advantage of automating services to provide 'around the clock' availability, it also removes the need for people to work long and unsociable hours to provide the necessary coverage. Services are likely to be more consistent, fast, and reliable. In addition the automatic recording of an audit trail for each transaction will mean that each party to the transaction can feel confident about its outcome. 
+
+
+7.4	Commerce in the Market space
+
+Many of the actions involved in a business transaction, such as ordering, invoicing, and sending payment instructions to the bank, can be completed without the need for human intervention using, for example, EDI (Electronic Data Interchange) technology. However, at the present time, most business transactions are initiated by a dialogue between humans either on the telephone, in writing, or face-to-face. With improvements in the availability of telematics services and with the increasing use of the Internet and the World Wide Web, opportunities to automate more activities in the commercial cycle (see illustration below) have increased. Language enabled software will play a prominent role in making this automation easier to use and more effective. 
+
+
+ 
+                    
+    Figure 4 : The Cycle of Commerce
+
+
+To the human user one of the advantages of the World Wide Web is that information is published in natural language. However, for a software agent to scan and select information from the Web, requires that it is given the intelligence to understand the published information and match it to the requirements of its user. Language Engineering can make a significant contribution to the development of intelligent agents which can undertake to provide consumers with an easy way of using the facilities of electronic commerce. A consumer could instruct such an agent, by voice, to browse the Web or any similar service, to read catalogues and select suitable products, to look for and negotiate prices, even assemble bids in an electronic auction. When the results have been reviewed the consumer would then tell the agent to place the order and, subsequent to delivery, instruct the bank to pay an electronic invoice. The human users would see none of the complexity of the underlying commercial transactions which would be dealt with by the agent. 
+
+After sales service can also be improved by using hypertext based electronic help desks with additional, language enabled facilities. The benefits of this automation are immense. Apart from the reduction of costs throughout the business transaction cycle, a wider choice of suppliers and products can be reviewed and assessed for suitability, and competitive pricing will be stimulated. The whole process will be faster and more efficient and, once the relevant information has been recorded, the accuracy of all the derivative processes can be assured. 
+
+In time, electronic commerce will change the business model itself. There will be less need for middlemen. New and small enterprises will be able to make the world aware of their products and services quickly, effectively and without too much expense. However, without language understanding and multi-lingual capability, these benefits cannot be fully realised.
+ 
+7.5	Effective Communication
+
+Communication is probably the most obvious use of language. On the other hand, language is also the most obvious barrier to communication. Across cultures and between nations, difficulties arise all the time not only because of the problem of translating accurately from one language to another, but also because of the cultural connotations of word and phrases. A typical example in the European context is the word 'federal' which can mean a devolved form of government to someone who already lives in a federation, but to someone living in a unitary sovereign state, it is likely to mean the imposition of another level of more remote, centralised government. 
+
+As the application of language knowledge enables better support for translators, with electronic dictionaries, thesauri, and other language resources, and eventually when high quality machine translation becomes a reality, so the barriers will be lowered. Agreements at all levels, whether political or commercial, will be better drafted more quickly in a variety of languages. International working will become more effective with a far wider range of individuals able to contribute. An example of a project which is successfully helping to improve communications in Europe is one which interconnects many of the police forces of northern Europe using a limited, controlled language which can be automatically translated, in real-time. Such a facility not only helps in preventing and detecting international crime, but also assists the emergency services to communicate effectively during a major incident.
+
+7.6	Accessibility and Participation
+
+One of the most important ways in which Natural Language Processing will have a significant impact is in the use of human language, especially speech, to interface with machines. This improves the usability of systems and services. It will also help to ensure that services can be used not just by the computer literate but by ordinary citizens without special training. This aspect of accessibility is fundamental to a democratic, open, and equitable society in the Information Age. 
+
+A good example of the type of service which will be available is an automated legal advice service. The accessibility of the justice system to all citizens is becoming a serious problem in many societies where the cost of legal expertise and the process of law prevents all but the very rich, and those qualifying for legal aid, from exercising their legal rights. It will be possible using language based techniques not only to provide advice which is based on an understanding of the problem and an analysis of the relevant body of law, but also to understand a natural language description of the problem and deliver the advice, as a human lawyer would have done, in spoken or printed form. Such a service could be made available through kiosks in court buildings or post offices, for example. This type of application can also be used to inform citizens of social security entitlements and job opportunities, as well as providing a useable, comprehensible interface to more open government. 
+
+Systems with the capacity to communicate with their users interactively, through human language, available either through access points in public places or in the home, via the telephone network or TV cables, will make it possible to change the nature of our democracy. There will be a potential for participation in the decision-making process through a far greater availability of information in understandable and 'objective' form and through opinion gathering on a very large scale. Many people whose lives are affected by disability can be helped through the application of language technology. Computers with an understanding of language, able to listen, see and speak, will offer new opportunities to access services at home and participate in the workplace. 
+
+7.7	Improved Education Opportunities
+
+Distance learning has become an important part of the provision of education services. It is especially important to the concept of 'life-long learning' which is expected to become an important feature of life in the Information Age. The effectiveness of distance learning and self-study is improved by using telematics services and computer aided learning.The quality and success of computer aided learning can be greatly enhanced by the use of Language Engineering techniques. If the computer aided learning package can understand the answers which its users give to questions, rather than simply recognise that the answer is right or wrong, it can direct them down a path which is more appropriate to their needs. In this way, students are likely to learn more effectively and have a longer concentration span, because a more sensitive package is inherently more comfortable to work with. 
+
+In future, in Europe, it will be essential in many walks of life to be competent in more than one language. Of course, computer aided language learning (CALL) is an area of prime importance for the application of Language Engineering. The same knowledge that is essential to the machine's ability to understand, is also the basis for the interactive teaching process, providing quality diagnostics of student errors as well as illustrating correct usage. New, more effective learning facilities at home and at work will greatly increase the opportunities to expand our knowledge and develop new skills.
+ 
+7.8	Entertainment, Leisure and Creativity
+
+The attraction of computer games to our children is a clear indication of the potential of the computer to affect our culture. Home entertainment can become more educational, while education can become more attractive, 'edutainment' as it has become known. The possibility of tele-presence in virtual environments such as museums, art galleries and libraries will provide a rich cultural experience, available to a wide section of society in the comfort and convenience of their own homes. Virtual visits to such cultural archives will be aided by language technology enabling the research and selection of all forms of digitised language based records, indexing and retrieval of images, dubbing of films and automatic production of sub-titles and providing translation of library and archive material. 
+
+For a wider range of people, writing can become a more exciting activity. Authoring tools will make it possible for them to achieve much higher quality results. The use of on-line dictionaries and thesauri, for example, makes selection of the 'mot juste' more likely, and grammar can be checked. The result can be a far more satisfying experience for writers who are not naturally gifted or well educated but who want to express themselves effectively in their business or social correspondence.
+
+8.  APPLICATIONS  OF  NLP :-
+
+➢	Machine Translation
+➢	Database Access
+➢	Information Retrieval
+➢	Text Categorization
+➢	Extracting Data From Text
+
+8.1  Machine Translation :-
+
+	In the early 1960s, there was great  hope that computers would  be able to translate from one natural language to another, just as Turing’s project “translated” coded messages into intelligible German. But in 1966,it became clear that translation requires an understanding of the meaning of the message, whereas code breaking depends only on the syntactic properties of the messages.
+
+	Most successful machine translation system  TAUM-METEO system,which translates weather reports from English to French.
+
+	To achieve broad coverage, translation system have lexicons of 20,000 to 100,000 words and grammars of 100 to 10,000 rules, the numbers varying greatly depending on the choice of formalism.
+
+	Translation is difficult because in general case, it requires in-depth understanding of the text, and that in-depth understanding of the situation that is being communicated.  This is true even “texts” of one word consider the word “open” on the door of a store. It communicates the idea that the store accepting customers at the moment. It means that the store is now in daily operation, but readers of this sign would not feel misled if the store closed at night without removing the banner.
+
+	The two signs use the identical word to convey different meanings. In some other languages, the same word or phrase would be used in both cases, but in German, the sign on the door would be “offen” while the banner would read “Neu Eroffnet.”
+
+	The problem is that different languages categorize the world differently. A majority of the situation that are covered by the English word “open” are also covered by the German word “offen”, but the boundaries of the category differs across languages. In English, we extend the basic meaning of “open” to cover open markets, open questions, and open job offerings. In German, the extensions are different. Job offerings are “frete” not open, but the concepts of loose ice, private firms, and blank checks all use a form of “offen”.
+
+	To do translation well, a  translator(human or machine) must read the original text, understand the situation to which it is referring, and find a corresponding text in the target language that does a good job of describing the same or a similar situation. Often this involves a choice. For example, the English word “you” can be translated into French as either the formal “vous” or the informal “tu”. There is just no way that one can refer to the concept of “you” in French without also making a choice of formal or informal. Translators sometimes find it difficult to make this choice. 
+	
+8.2  Database Access :-
+
+	The first major success for NLP was in the area of database access. Circa 1970, there were many databases on mainframes computers, but they could be accessed only by writing complicated programs in obscure programming languages. The staff in charge of the mainframes could not keep up with all the requests of users who needed to get at this data,and the users understandably did not want to learn how to programs their own requests. Natural language interfaces provided a solution to this dilemma. 
+
+The first such system was the LUNAR system, a prototype built by William Woods(1973) and his team for the NASA manned spacecraft center. It enabled a geologist to ask questions about the chemical analysis data of lunar rock and soil samples brought back by the Apollo missions. The system was not put into real operational use, but in one test it successfully answered 78% of queries such as: 
+What is the average modal plagioclase concentration for lunar samples that contain rubidium?
+	
+Fernando Pereira’s CHAT system is at a similar level of complexity. It generates the following answers to questions about a geographical database:
+
+Q: Which countries are bordered by two seas?
+A: Egypt, Iran, Israel, Saudi Arabia and Turkey.
+Q: What are the countries from which a river flows into the Black Sea?
+A: Romania, Soviet Union.
+Q: What is the total area of countries south of the equator and not in Australasia?
+A: 10,228,000 square miles.
+	
+The advantages of systems like this are obvious. The disadvantages is that the user never knows which wordings of a query will succeed and which are outside the system’s competence. For example, CHAT handles “south of the equator” and “with latitude less than zero,” but not “in the southern hemisphere.” There is no principled reason why this last paraphrase should not work; it just happens that “hemisphere” is not in the dictionary (nor is this sense of “in”). Similarly, the final sample questions could not be phrased as “what ocean borders both African countries and Asia?” because the grammar does not allow that kind of conjuction.
+
+	Over the last decade, some commercial systems have built up large enough grammars and lexicons to handles a fairly wide variety of inputs. The main challenge for current systems is to follow the context of an interaction. The user should be able to ask a series of questions where some of the them implicitly refer to earlier questions to answers: 
+
+What countries are north of the equator?
+How about south?
+Show only the ones outside Australasia.
+What is their total area?
+	Some systems (e.g. TEAM) handle problems like this to a limited degree. Natural language is not always the most natural way to communicate. Sometimes it is easier to point and click with a mouse to express an idea (e.g. “sum that column of the spreadsheet”).
+
+	The emphasis in practical NLP has now shifted away from database access to the broad field of text interpretation. In part, this is a reflection of a change in the computer industry. In the early 1980s, most online information was stored in database or spreadsheets. Now the majority of online information is text: email, news, journal articles, reports, books, encyclopedias. Most computer users find there is too much information available, and not enough time to sort through it. Text interpretation programs help to retrieve, categorize, filter, and extract information from text. Text interpretation systems can be split into three types: information retrieval, text categorization and data extraction.
+
+8.3  Information Retrieval (IR):-
+
+However, users found it difficult to get good results with Boolean queries. When a query finds no documents, for example, it is not clear how to relax the query to find some. Changing an “and” to an “or” is one possibility; adding another disjunction is another, but users found there were too many possibilities and not enough guidance.
+
+Most modern IR systems have switched from the Boolean model to a vector-space model, in which every list of words (both document and query) is treated as a vector in n-dimensional space, where n is the number of distinct tokens in the document collection. In this model, the query would simply be “natural language computational linguistics,” which would be treated as a vector with the value 1 for these four words (or terms, as they are called in IR) and the value 0 for all the other terms. Finding documents is then a matter of comparing this vector against a collection of other vectors and reporting the ones that are close. The vector model is more flexible than Boolean model because the documents can be ranked by their distance to the query, and the closest ones can be reported first.
+
+Most systems ignore common words like “the” and “a”, and many system weight each term differently.
+
+This model of IR is the almost entirely at the word level. It admits a minuscule amount of syntax in that words can be required to be near each other, and allows a similarly tiny role for semantic classes in the form of synonyms lists. You might think that IR would perform much better if it is used some more sophisticated NLP technology. Many people have thought just that, but surprisingly, none has been able to show a significant improvement on a wide range of IR tasks. It is possible to tune NLP technology to a particular subject domain, but nobody has been able to successfully apply NLP to an unrestricted range of texts.
+
+
+
+
+8.4   Text Categorization:-
+
+NLP techniques have proven successful in a related task : sorting text into fixed topic categories. There are several commercial services that provide access to news wire stories in this manner. A subscriber can ask for all the news on a particular industry, company, or geographic area, for example. The providers of these services have traditionally used human experts to assign the categories. In the last few years, NLP systems have proven to be just as accurate, correctly categorizing over 90% of the news stories. They are also for faster and more consistent, so there has been a switch from humans to automated systems.
+
+Text categorization is amenable to NLP techniques where IR is not because the categories are fixed, and thus the system builders can spend the time turing their program to the problem. For example, in a dictionary, the primary definition of the word “crude” is vulgar, but in a large sample of the Wall Street Journal, “crude” refers to oil 100% of the time.
+
+8.5   Extracting data from text:-
+
+	The task of data extraction is to take on-line text and derive from it some assertions that can be put into a structured database. For example, the SCISOR system is able to take the following Dow Jones News Service Story:
+
+PILLISBURY SURGED 3 3-4 TO 62 IN BIG BOARD COMPOSITE TRADING OF 3.1 MILLION SHARES AFTER BRITAIN’S GRAND METROPOLITAN RAISED ITS HOSTILE TENDER AFTER BY $3 A SHARE TO $63. THE COMPANY PROMPTLY REJECTED THE SWEETENED BID, WHICH CAME AFTER THE TWO SIDES COULD NOT AGREE TO A HIGHER AFTER ON FRIENDLY TERMS OVER THE WEEKEND. 
+
+9.   CONCLUSION    
+                                                                                                                                                     
+By the complete implementation of the natural language processing system, at many places our work will be easier. By just our natural language (any language) we can direct the robot, can also do conversation with computer and there is a no need of a person to work as a translator for the conversation between two persons who don’t know any common language. Still current program have not reached this level but they may do so very soon.
+
