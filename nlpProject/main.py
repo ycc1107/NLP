@@ -1,14 +1,9 @@
-import pickle
-from UserInput import UserInput
-
-    
-class TrainningMode():
-    def train(self):
-        pass
+from UserInput import UserInput         
 
 def main():
+    
     test = UserInput()
-    test.result("tsla")
+    test.result("globale warming")
     print "done"
     
 
