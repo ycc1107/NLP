@@ -28,6 +28,7 @@ class Search():
                 for web in webs:
                     result += web["link"]+"\n"
         except:
+            print ("search error")
             result = ""
             
         return result

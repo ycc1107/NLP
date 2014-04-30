@@ -17,10 +17,10 @@ class UserInput():
             query = QueryExpansion()
             idf = self.LoadTrainedSet()  
         except:
-            print "error"
+            print "user input error"
             
-        userInput = query.expand(userInput) 
-        results = googleRes.search(userInput)  
+        area = query.expand(userInput) 
+        results = googleRes.googleAPICall(userInput)  
         # Only return 20 results
         length = len(results)
         if len(results) > 20:

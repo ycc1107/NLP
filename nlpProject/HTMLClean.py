@@ -22,6 +22,8 @@ class Clean():
             if len(contain) > 0:
                 break
         for s in contain:
+            if s.strip() == "":
+                continue
             text = text + s.getText().strip()
             
         #tokenizedText = nltk.word_tokenize(text)
