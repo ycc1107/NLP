@@ -1,4 +1,4 @@
 class QueryExpansion():
     def expand(self,userInput):
-        area = "global warming"
+        area = "globalWarmming"
         return (area)

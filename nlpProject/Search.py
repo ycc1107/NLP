@@ -6,6 +6,7 @@ class Search():
     def __init__(self):
         self.KEY = "AIzaSyC5WA2gfeLrJrXRvhDkaAuKHLGiPGSpuqY"
         self.CX = "015476964111987883949:xuenin0mbdu"
+        self.result = []
         
     def googleAPICall(self,userInput):  
         try:  
@@ -24,14 +25,14 @@ class Search():
                 response = urllib2.urlopen(request)
                 returnResults = simplejson.load(response)
                 webs = returnResults['items'] 
-                result = ""
+    
                 for web in webs:
-                    result += web["link"]+"\n"
+                    self.result.append(web["link"])
         except:
             print ("search error")
-            result = ""
+            self.result.append("http://en.wikipedia.org/wiki/Climate_change")
             
-        return result
+        return self.result
             
             
 #   GOOGLE return dict names
