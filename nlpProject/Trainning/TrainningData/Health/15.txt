@@ -1,0 +1,114 @@
+Treatment of acute procedure anxiety in adults
+INTRODUCTION — Acute procedure anxiety is an excessive fear of medical, dental or surgical procedures that results in acute stress or avoidance. Patients may experience anxiety in anticipation of or during procedures used for screening (eg, mammography), diagnosis (eg, amniocentesis or endoscopy), and treatment (eg, angioplasty or major surgery). Avoidance of clinical procedures due to acute procedure anxiety can have negative health consequences [1-7].
+
+Specific phobias are a subset of the varied manifestations of acute procedure anxiety, diagnosed under DSM-5 criteria only when the patient’s fears are specific to the procedure and its immediate effects (eg, fear of suffocation during an MRI) rather than fears not specific to the procedure itself (eg, a fear of the underlying illness that might be diagnosed). Specific phobias related to clinical procedures include blood-injection-injury phobia, dental phobia, and MRI claustrophobia.
+
+This topic addresses the treatment of acute procedure anxiety that does not constitute a specific phobia. Treatment for specific phobias of clinical procedures (including blood-injection-injury phobia, dental phobia, and MRI claustrophobia) is addressed separately. The epidemiology, clinical manifestations, course, screening, assessment, and differential diagnosis of acute procedure anxiety are also discussed separately. The epidemiology, clinical manifestations, course, diagnosis, and treatment of other specific phobias are also discussed separately. (See "Treatment for specific phobias of medical and dental procedures" and "Acute procedure anxiety in adults: Epidemiology and clinical presentation" and "Acute procedure anxiety in adults: Course, screening, assessment, and differential diagnosis" and "Specific phobia in adults: Epidemiology, clinical manifestations, course and diagnosis" and "Psychotherapy for specific phobia in adults" and "Pharmacotherapy for specific phobia in adults".)
+
+GENERAL TREATMENT PRINCIPLES — Several general principles can be useful in the management of acute procedure anxiety. Unless otherwise specified, these guidelines are based on our clinical experience.
+
+●Establish a trusting doctor-patient relationship — A trusted physician may be better able to explain to the patient why an indicated procedure is necessary, and to reassure him or her of its safety.
+●Educate the patient about the procedure — Address any preconceived notions about the procedure and potential outcomes, and allow the patient to ask questions and bring up concerns [8-10]. (See 'Supplemental education' below.)
+●Determine what aspect of the procedure is most anxiety provoking for the patient
+•Directly address that underlying focus with the patient through acknowledgment and education.
+•Acknowledge the patient’s anxiety [10] and normalize the experience of anxiety if it is common, as is the case with invasive prenatal testing. Avoid telling patients not to worry as this will undermine their concerns and imply that they are able to stop their worries at will.
+•Patients who are anxious tend to think of the worst negative outcome and overestimate the likelihood of the feared outcome [11]. In mild cases of anxiety, providing accurate data and realistic evaluation of the risks may be sufficient to decrease anxiety [10].
+●Provide patients with as much control as possible during the procedure — This may include assuring the patient that nothing will happen during the procedure that is not agreed upon in advance. Allow the patient to interrupt or end the procedure if anxiety becomes intolerable, as long as it is safe to do so [9,10].
+●Make the patient as comfortable as possible during the procedure — Allow family members or friends to be present during the procedure if desired by the patient and not medically contraindicated [9].
+●Evaluate whether treatment is needed — Mild cases of acute procedure anxiety may respond to verbal acknowledgment and correction of inaccurate assumptions about the procedure; however, moderate or severe anxiety may require intervention to reduce patient distress and/or to prevent avoidance of a necessary procedure. Individual treatments for acute procedure anxiety are described below.
+INTERVENTIONS — There are both pharmacologic and psychotherapeutic options for treating acute procedure anxiety. Placebo-controlled clinical trials are mostly limited to the subset of presentations diagnosed as specific phobias of clinical procedures (ie, dental phobia, blood-injection-injury phobia, and MRI claustrophobia), the treatment of which is described separately. In the absence of clinical trials, selection among treatments for acute procedure anxiety that does not constitute a specific phobia is largely guided by clinical experience and the practical circumstances of a patient’s procedure. (See "Treatment for specific phobias of medical and dental procedures".)
+
+Among medications, we suggest use of a benzodiazepine first-line medication for acute procedure anxiety other than specific phobias. Among psychotherapies, we suggest first-line use of brief cognitive behavioral therapy. Indications for selecting between medication and psychotherapy are discussed later in this topic. (See 'Treatment selection' below.)
+
+Benzodiazepines — To our knowledge there are no placebo-controlled clinical trials of benzodiazepines in acute procedure anxiety; however, treatment of acute procedure anxiety with benzodiazepines is common and, in our clinical experience, usually effective. Treatment with a benzodiazepine is used to induce anxiolysis and/or sedation, allowing the patient to tolerate and complete the procedure.
+
+To achieve sedation in a patient with (or likely to experience) acute procedure anxiety, a benzodiazepine is typically administered intravenously 15 minutes prior to the procedure, or 30 minutes prior to the procedure for oral formulations. Diazepam has a more rapid onset than lorazepam and alprazolam. As an example, 10 mg of oral diazepam is recommended for healthy adults [12]. A table provides dosing of oral and intravenous benzodiazepines commonly used in procedural sedation (table 1). For these medications, the following adjustments to the usual adult dose are recommended [13]:
+
+●A 50 percent reduction is needed in adults older than 60
+●A 50 percent dose reduction is needed for patients who are debilitated, have low cardiac output, or have been premedicated with opioid analgesics.
+●No dose adjustment is needed with renal insufficiency
+●A 50 percent reduction of alprazolam and diazepam in patients with hepatic insufficiency [13]. However, lorazepam should be the drug of choice for patients with liver failure, because it undergoes glucuronide conjugation and its half-life is only slightly affected in hepatic dysfunction [13]
+●Patients with acute procedure anxiety and concurrent regular benzodiazepine or alcohol use (or misuse, abuse, or dependence) may require a higher-than-usual dose of benzodiazepine to account for possible tolerance to the drug. A substance use disorder is generally not considered a contraindication to one-time use of a benzodiazepine for acute procedure anxiety as long as the patient is not acutely intoxicated with another sedating substance at the time of the procedure and the patient is closely monitored for respiratory depression.
+Oral dosing may be repeated after 30 minutes to one hour, if the initial dose has no effect. Peak plasma level following oral administration is reached within 60 minutes for diazepam and within 120 minutes for lorazepam and alprazolam [13]. As an example, in a study of procedural sedation prior to an MRI scan, about a quarter of the patients required a second medication dose because of either an inadequate response to the first dose or a prolonged procedure [12]. Patients dependent on alcohol or benzodiazepines may require a higher benzodiazepine dose to achieve sedation. The pharmacology of these benzodiazepines is summarized in a table (table 1).
+
+Intranasal administration of midazolam has shown efficacy for procedural sedation in two clinical trials of patients with MRI claustrophobia; both trials had methodologic limitations rendering the results preliminary [14,15]. The minimal effective dose is 1 mg with repeated doses of up to 4 mg as needed. Intranasal midazolam has a faster onset of action (within 15 minutes) compared to oral administration, is not affected by hepatic first-pass metabolism, and is more easily administered than intravenous medication. Intranasal midazolam is readily prepared and used in hospitals in US and other countries, especially those serving pediatric populations. The oral form of midazolam is almost never used due to widely variable efficacy.    
+
+Patients should be educated about potential side effects of benzodiazepines, described separately, and outpatients should be warned against driving because of sedating effects and psychomotor impairment. The length of time to avoid driving depends on time for resolution of psychomotor impairment, which is affected by the dosage, route of administration and drug potency. Examples, based on studies of healthy volunteers, are provided below. (See "Treatment of insomnia", section on 'Adverse effects'.)
+
+●Diazepam — Patients should not drive for at least five hours after oral administration of 10mg diazepam [16] or intravenous administration of 0.15 mg/kg of diazepam [17]. At higher intravenous doses of diazepam (0.30 mg/kg or 0.45 mg/kg), patients should avoid driving for at least 10 hours [17].
+●Midazolam — Patients should not drive for at least five hours after intravenous administration of midazolam at 0.1 mg/kg [18]. At higher doses of midazolam (0.15 mg/kg), residual psychomotor impairment persists at 5 hours.
+●Lorazepam — Patients should refrain from driving for up to 24 hours after an oral dose of 2.5 mg lorazepam [16].
+Patients should be evaluated to ensure that they are safe to leave and should only be discharged if accompanied by a companion [19]. (See "Safety of infant exposure to antidepressants and benzodiazepines through breastfeeding", section on 'Benzodiazepines' and "Risks of antidepressants during pregnancy", section on 'SSRIs plus benzodiazepines'.)
+
+Brief cognitive-behavioral therapy — Cognitive-behavioral therapy (CBT) is a form of psychotherapy that incorporates cognitive and behavioral interventions to reduce symptoms of acute procedure anxiety. Components of CBT include psychoeducation, cognitive restructuring, exposure therapy, and/or relaxation training. The goal of cognitive restructuring is to gain a more realistic perspective of the procedure by changing maladaptive or irrational thought patterns that are associated with anxious feelings. Behavioral interventions, such as exposure or relaxation training, are used to reduce symptoms or overcome avoidance of a procedure. These interventions may be used together, or may be applied selectively based on the patient’s clinical presentation. A brief CBT, delivered over two to four sessions, can be used for acute procedure anxiety, though support for the duration is limited to the single trial that follows.
+
+A single trial evaluated the efficacy of brief CBT consisting of psychoeducation, cognitive restructuring, and a behavioral intervention in reducing anxiety and depression among patients awaiting coronary artery bypass graft surgery [20]. One hundred preoperative patients were randomly assigned to four, 60-minute sessions of CBT or to treatment as usual. The intervention group experienced reduced symptoms of anxiety and depression after the intervention and at three to four weeks post-discharge compared to the treatment-as-usual group. Patients receiving CBT also experienced more improvement in quality of life and a shorter hospital stay (7.9 days versus 9.2 days).
+
+Numerous trials have found cognitive behavioral therapy to be an effective treatment for specific anxiety disorders, including generalized anxiety disorder, panic disorder, social anxiety disorder, posttraumatic stress disorder and obsessive compulsive disorder [21]. (See "Psychotherapy for generalized anxiety disorder", section on 'Cognitive behavioral therapy' and "Psychotherapy for obsessive-compulsive disorder", section on 'Cognitive behavioral therapy' and "Psychotherapy for panic disorder", section on 'Cognitive behavioral therapy' and "Psychotherapy for posttraumatic stress disorder", section on 'Cognitive and behavioral therapies' and "Psychotherapy for social anxiety disorder", section on 'Cognitive behavioral therapy'.)
+
+Individual components of CBT for acute procedure anxiety are described further below. In addition to clinical trials of combined cognitive and behavioral interventions (above), some component interventions have been tested as monotherapy.
+
+Psychoeducation — CBT begins with education on:
+
+●Reason the procedure was recommended, knowledge about the procedure, what to expect during the procedure and potential outcomes
+●Factors leading to anxiety and avoidance of clinical procedures
+●Physiologic symptoms that may accompany the anxiety
+●Treatment plan and rationale
+Cognitive restructuring — Cognitive restructuring involves the identification and modification of overly negative cognitions regarding an anxiety-inducing clinical procedure. Cognitive restructuring has not been widely tested as monotherapy in acute procedure anxiety. A single trial of 52 patients did not find the intervention to effectively reduce symptoms of dental phobia [22]. (See "Treatment for specific phobias of medical and dental procedures", section on 'Cognitive restructuring'.)
+
+Exposure therapy — In exposure therapy, the patient gradually confronts the anxiety-inducing procedure in a safe and controlled manner [23]. This is preferably done in real-world situations, which is referred to as in-vivo exposure, but can also be performed using pictures, narrative, and/or memory in imaginal exposure.
+
+Exposure therapy has not been widely tested as monotherapy for acute procedure anxiety. Trials have found exposure therapy to be efficacious in the treatment of dental phobia [24]. (See "Treatment for specific phobias of medical and dental procedures", section on 'Dental phobia' and "Psychotherapy for specific phobia in adults".)
+
+Although more time consuming to administer than a sedating medication, the benefit of exposure therapy may last for months to years following treatment, while a sedating medication’s clinical effects are limited to the period immediately following their administration. (See "Psychotherapy for specific phobia in adults", section on 'Exposure therapy' and "Treatment for specific phobias of medical and dental procedures", section on 'Duration of treatment effects'.)
+
+Relaxation training — Teaching patients relaxation exercises can address the elevated muscle tension and reduced flexibility of autonomic functioning that often accompanies anxiety [25]. In relaxation training, patients are typically trained to systematically relax different muscle groups until proficiency is achieved in relaxation of the whole body on cue [26].
+
+Supplemental education — Several clinical trials have tested whether supplemental education (ie, providing information beyond that routinely provided in the informed consent process) reduced acute procedure anxiety prior to or during clinical procedures, but findings have been mixed [27-34]. Supplemental education has been found to be helpful in increasing patients’ knowledge about a procedure [27-30]. Variability in the trials (in the procedures studied, the mode of information delivery, the content and amount of information) as well as the methodologic shortcomings of the trials limit the conclusions that can be drawn. Examples of the trials are as follows:
+
+●In a study of 140 patients undergoing endoscopy, patients who were provided with additional detailed written and verbal information related to the procedure reported a lower mean anxiety level compared to patients in usual care who received brief information about the procedure [31].
+●In a study of 200 women undergoing colposcopy with high pre-procedure anxiety, there was no difference in anxiety level between women who were provided with an information leaflet prior to their appointment versus women who did not receive the leaflet [34].
+●In two studies of patients undergoing first-time colposcopy, patients who attended a nurse-led educational session and received educational material before their colposcopy procedure were found to be no less anxious than patients who received the educational material alone [27,28].
+●In 135 patients undergoing cardiac surgery, an intervention, consisting of 15 minutes of supplemental education and an opportunity to ask questions, reduced anxiety post-surgery compared to patients who received usual care [33].
+Single trials additionally suggest that supplemental education provided to patients prior to a procedure should:
+
+●Avoid excessive detail about potential complications of the procedure, as this may increase anxiety [35].
+●Provide education specific to the procedure and the patients’ clinical condition rather than more general material on the condition and its treatment [30].
+There has been little study comparing modes of information delivery in supplemental education. A single trial of 132 women undergoing colposcopy found that presenting information about the procedure via a video resulted in lower anxiety levels than presenting similar information in a written format [36].
+
+Music therapy — Clinical trials have found music to reduce anxiety levels in samples drawn from patients awaiting clinical procedures (ie, not from patients with acute procedure anxiety). In these trials, music was played during a 15 to 20 minute interval prior to the procedure and/or during the procedure if sedation was not used [37-40]. Music did not show a benefit in a trial of patients under conscious sedation [41].
+
+Video observation — Video observation of a laparoscopic procedure allows the patient to view live video images of the procedure on a monitor, providing the same view that the physician has through the laparoscope. Video observation for the purpose of anxiety reduction has not been tested in patients with acute procedure anxiety. A trial was conducted of video observation for 81 women undergoing colposcopy [42]. The trial found that, compared to a control condition, video observation reduced anxiety and pain among women undergoing a diagnostic colposcopy, but not among women undergoing colposcopy that included laser treatment.
+
+TREATMENT SELECTION — Based on the data described above and our clinical experience, either benzodiazepines or brief cognitive behavioral therapy (CBT) can be used first-line to treat acute procedure anxiety. There are no rigorous clinical trials comparing the efficacy of these interventions in acute procedure anxiety. Principles to guide the selection between them are described below.
+
+Medication treatment of acute procedure anxiety is indicated over psychotherapy under one or more of the following circumstances:
+
+●The patient prefers treatment with medication over psychotherapy therapy.
+●CBT is not available because of financial limitations or the unavailability of trained therapists.
+●A procedure is needed on a rare or emergent basis.
+●The patient’s anxiety is so severe that the patient cannot tolerate CBT.
+●The patient has previously failed an adequate trial of CBT.
+Psychotherapy for acute procedure anxiety is indicated over medication under one or more of the following circumstances:
+
+●The patient prefers psychotherapy to medication.
+●The patient is not able to tolerate medication or has medical contraindications to it.
+●The patient requires a procedure on a repeated basis
+SUMMARY AND RECOMMENDATIONS
+
+●Patients who are anxious tend to think of the worst negative outcomes and overestimate their likelihood [11]. In mild cases of acute procedure anxiety, providing accurate data and realistic evaluation of the risks is often sufficient to decrease anxiety [10]. Moderate or severe anxiety may require intervention with medication or psychotherapy to reduce distress or overcome avoidance. (See 'General treatment principles' above and "Treatment for specific phobias of medical and dental procedures", section on 'General treatment principles'.)
+●There is an absence of clinical trials on treatment of acute procedure anxiety other than treatment for specific phobias of clinical procedures (ie, dental phobia, blood-injection-injury phobia, and MRI claustrophobia). Thus, treatment decisions in acute procedure anxiety are guided by our clinical experience, the practical circumstances of a patient’s procedure, and evidence from trials of other anxiety disorders. (See "Treatment for specific phobias of medical and dental procedures".)
+
+First-line treatment options for acute procedure anxiety include medications and psychotherapy. Treatment for specific phobias of clinical procedures (ie, dental phobia, blood-injection-injury phobia, and MRI claustrophobia) is discussed separately. (See 'General treatment principles' above and "Treatment for specific phobias of medical and dental procedures".)
+●Medication is indicated over psychotherapy in acute procedure anxiety that does not constitute a specific phobia under the following circumstances (See 'Treatment selection' above.):
+•It is preferred by the patient
+•Cognitive behavioral therapy (CBT) is unavailable
+•The procedure is needed on a one-time or emergent basis
+•The patient’s anxiety is too severe to tolerate CBT
+•The patient previously failed an adequate trial of CBT
+●For these patients, we suggest use of a benzodiazepine (table 1) over other medications (Grade 2C). As an example, diazepam 10 mg can be given intravenously approximately 15 minutes before the procedure, or orally approximately 25 minutes before the procedure, and repeated if needed after 30 to 60 minutes. (See 'Benzodiazepines' above.)
+●Psychotherapy is indicated over medication in acute procedure anxiety that does not constitute a specific phobia under the following circumstances (See 'Treatment selection' above.):
+•It is preferred by the patient
+•The patient is not able to tolerate the medication or has medical contraindications to its use
+•The patient requires a procedure on a repeated basis.
+●For these patients, we suggest use of brief CBT over other psychotherapies (Grade 2C). (See 'Brief cognitive-behavioral therapy' above.)

@@ -1,0 +1,182 @@
+Osteoclast inhibitors in the management of bone metastases from breast cancer
+INTRODUCTION — Globally, breast cancer is the most frequently diagnosed and the leading cause of cancer death in females. In the United States, breast cancer is the most common female cancer, the second most common cause of cancer death in women, and the main cause of death in women ages 40 to 59 years.
+
+Although metastatic breast cancer is not curable, the prognosis is highly variable. For patients with metastatic breast cancer isolated to bone involvement, life expectancy can be measured in years with an average of approximately six years [1]. While the average life expectancy drops to approximately two years for patients with metastatic disease involving the bones plus other sites, up to 20 percent can survive five years or longer [2,3].
+
+Bone metastases can cause symptoms that negatively impact the patient’s quality of life, including pain (particularly with motion). In addition, they expose patients to skeletal related events (SREs) such as excessive pain requiring intervention (ie, surgery or radiation), pathologic fracture, symptomatic hypercalcemia, or spinal cord compression. Therefore, the management of bone metastases is a clinically important factor in the care of patients with metastatic breast cancer and bone involvement.
+
+For these patients, an integrated management approach entails antineoplastic treatment, osteoclast inhibitors, and supportive interventions, such as analgesics. The potent osteoclast inhibitors (bisphosphonates and denosumab) decrease the risk of SREs and are reviewed here. These drugs delay the time to first SRE as well as decrease subsequent SREs [4]; hence, they are important therapies for the prevention and treatment of skeletal complications of metastatic breast cancer.
+
+Antineoplastic therapies, local therapies, and adjunctive therapies are discussed separately. In addition, the risks of therapy with osteoclast inhibitors in patients with advanced cancer are covered separately.
+
+●(See "Systemic treatment for metastatic breast cancer: General principles".)
+●(See "Radiation therapy for the management of painful bone metastases".)
+●(See "Metastatic breast cancer: Local treatment".)
+●(See "Cancer pain management: Use of acetaminophen and nonsteroidal antiinflammatory drugs" and "Cancer pain management: Adjuvant analgesics (coanalgesics)" and "Cancer pain management with opioids: Optimizing analgesia" and "Cancer pain management: Interventional therapies".)
+●(See "Risks of therapy with bone modifying agents in patients with advanced malignancy".)
+INDICATIONS — Although patients ultimately diagnosed with bone metastases are almost always symptomatic [5-8], osteoclast inhibitors are indicated for the management of patients with metastatic breast cancer who have evidence of bone destruction [9]. While whole-body skeletal imaging is routinely used to detect bone metastases, it is does not reliably demonstrate bone destruction [10]. Therefore, additional imaging should be performed, especially in patients in whom the diagnosis is strongly suspected [11]. Both computed tomography (CT) and magnetic resonance imaging (MRI) can be performed in this situation; the choice between them depends on the expertise locally to interpret these imaging tests. (See "Overview of the use of osteoclast inhibitors in early breast cancer".)
+
+An overview on the use of osteoclast inhibitors for women with early breast cancer and the use of osteoclast inhibitors for women with osteoporosis are discussed separately. (See "Overview of the use of osteoclast inhibitors in early breast cancer" and "The use of bisphosphonates in postmenopausal women with osteoporosis" and "Denosumab for osteoporosis".)
+
+CONSIDERATIONS PRIOR TO INITIATION OF OSTEOCLAST-INHIBITING THERAPY
+
+Dental health — Because of the risk for osteonecrosis of the jaw, we agree with the American Society of Clinical Oncology (ASCO) guidelines and recommend that all patients undergo a dental examination prior to initiation of treatment. In addition, all patients should be counseled to follow up with a dental provider at regular intervals to ensure oral health is maintained. (See "Oral health in cancer survivors".)
+
+Calcium and vitamin D — For patients in whom osteoclast inhibitors is indicated, preexisting hypocalcemia and/or vitamin D deficiency should be corrected prior to treatment and patients counseled regarding adequate intake of calcium and vitamin D. In general, the principles and guidance on the use of calcium and vitamin D supplementation as outlined by the Institute of Medicine that applies to the general population can also be applied [12]. (See "Calcium and vitamin D supplementation in osteoporosis", section on 'Optimal intake'.)
+
+A large proportion of patients with breast cancer may be vitamin D deficient, which places them at risk for hypocalcemia if they are treated with an osteoclast inhibitor, although this is a relatively rare complication [13]. This was shown in a combined analysis of three randomized trials involving over 5600 women who were randomly assigned to treatment with denosumab or zoledronic acid [14]. As presented at the 2013 ASCO meeting, the main results were:
+
+●Hypocalcemia was more common among patients who did not report use of calcium and vitamin D compared to those who did (16 versus 9 percent, respectively).
+●Serious (grade 3/4) hypocalcemia within six months of starting treatment was uncommon with treatment using denosumab or zoledronic acid (3 and 1 percent, respectively).
+●No fatal episodes of hypocalcemia were reported in those treated on clinical trial; however, there have been fatal hypocalcemic events reported in postmarketing evaluations [15].
+Further discussion of the adverse effects resulting from osteoclast inhibitors, including the risk of hypocalcemia, is covered separately. (See "Bisphosphonates and denosumab in patients with metastatic cancer".)
+
+TREATMENT APPROACH — For the breast cancer patient with evidence of metastatic bone destruction, the selection of one osteoclast inhibitor over another may be influenced by differences in efficacy (albeit modest) or patient preferences such as the route of administration, tolerance, and cost of therapy.
+
+In our practice, our treatment approach is as follows:
+
+●For most patients, denosumab is usually the drug of choice. Denosumab results in a greater reduction in the risk of skeletal related events (SREs) compared to zoledronic acid. In addition, the subcutaneous mode of administration may be more convenient for patients, particularly if they are not receiving systemic intravenous chemotherapy (ie, patients on endocrine therapy or on oral chemotherapy). (See 'Denosumab' below.)
+●For patients, particularly those receiving intravenous anticancer treatment, bisphosphonates are a reasonable alternative to denosumab [4].
+●If a bisphosphonate is indicated, we prefer zoledronic acid to others in this class because it appears to be the more effective bisphosphonate and requires a shorter infusion time. Pamidronate may be considered particularly for patients for whom a longer infusion time is not an issue, and consideration may be given to use of the oral bisphosphonates with efficacy in metastatic bone disease, clodronate and ibandronate. (See 'Zoledronic acid' below and 'Pamidronate' below.)
+TREATMENT OPTIONS — Available osteoclast inhibitors include:
+
+●Denosumab – This is a monoclonal antibody to receptor activator of nuclear factor kappa B ligand (RANKL). It is administered as a subcutaneous injection. (See 'Denosumab' below.).
+●Intravenous (IV) bisphosphonates:
+•Zoledronic acid (see 'Zoledronic acid' below)
+•Pamidronate (see 'Pamidronate' below)
+●Two additional bisphosphonates, clodronate and ibandronate, are available outside of the United States. (See 'Other bisphosphonates' below.)
+Monoclonal antibodies against RANKL — The RANKL is a key component in the pathway for osteoclast formation and activation. Expression of RANKL in bone may contribute to the development of bone metastases by binding to its receptor (RANK) on the surface of tumor cells. (See "Mechanisms of bone metastases", section on 'RANKL and OPG'.)
+
+A monoclonal antibody to RANKL, denosumab, is commercially available for the management of bone metastases from solid tumors, including breast cancer. The data specific to breast cancer are reviewed below. A more extensive discussion of denosumab for patients with metastatic cancer is discussed separately. (See "Bisphosphonates and denosumab in patients with metastatic cancer" and "Bone metastases in advanced prostate cancer: Management" and "Risks of therapy with bone modifying agents in patients with advanced malignancy".)
+
+Denosumab — In our practice, denosumab is usually the drug of choice for patients with bony metastases from breast cancer, particularly for patients not receiving intravenous chemotherapy (ie, patients on endocrine therapy or on oral chemotherapy). Denosumab effectively reduces the risk of first and subsequent SREs in patients with bone metastases from breast cancer [4]. While denosumab appears to be superior to zoledronic acid with respect to skeletal related events (SREs), denosumab provides no advantage on breast cancer progression or overall survival over bisphosphonates [9]. (See 'Indications' above.)
+
+Dosing — Denosumab is dosed at 120 mg subcutaneously (SC) every four weeks.
+
+Efficacy — Randomized trials consistently show that denosumab is more effective than bisphosphonates in reducing the rate of SREs. These results were subsequently confirmed in a 2012 meta-analysis, which showed that treatment with Denosumab resulted in [16]:
+
+●A greater reduction in the risk of SREs compared to bisphosphonates (RR 0.78, 95% CI 0.72-0.85).
+●A greater reduction in the SRE rate and delays in time to SREs compared to zoledronic acid. In addition, there was a prolongation in the time to developing bone pain among patients without pain at baseline.
+Despite these results, overall survival was equivalent regardless of the agents used.
+
+Impact on quality of life — Accumulating data consistently show that while both denosumab and the bisphosphonates have a positive impact on quality of life (QOL), denosumab may be slightly more effective. This was best illustrated in a phase III trial comparing zoledronic acid and denosumab where the following outcomes have been reported [17,18]:
+
+●A clinically meaningful improvement in health-related QOL was reported by 31 and 34 percent of patients among those treated with zoledronic acid and denosumab, respectively [17]. In addition, improvement in the performance status (PS) was noted by 4 and 5 percent with a maintained PS in 55 and 59 percent.
+●Treatment resulted in a delay to pain worsening time (seven and nine months, respectively) [18].
+Fewer patients receiving denosumab experienced clinically significant worsening of pain (from none or mild to moderate or severe) compared to those treated with zoledronic acid (absolute difference, 5 percent). This was associated with a lower requirement for analgesics as well (absolute difference, 2 percent).
+
+Bisphosphonates — Although we generally prefer denosumab for most patients with bone metastases, bisphosphonates are a reasonable alternative, especially in patients already receiving intravenous therapy for treatment of metastatic breast cancer. Both oral (clodronate and ibandronate) and intravenous (IV, clodronate, ibandronate, pamidronate, and zoledronic acid) formulations have become integral components of treatment in patients with breast cancer and bone metastases.
+
+The mechanism of action, complications, and the risks associated with bisphosphonate therapy for patients with other types of metastatic cancer are covered separately. (See "Bisphosphonates and denosumab in patients with metastatic cancer", section on 'Bisphosphonates' and "Risks of therapy with bone modifying agents in patients with advanced malignancy".)
+
+Efficacy — The efficacy of bisphosphonates was evaluated in a 2012 meta-analysis [16]. Compared to placebo, bisphosphonates significantly reduced the risk of SRE by 15 percent (relative risk [RR] 0.85; 95% CI 0.77-0.94). In all trials included, the median reduction in SREs was 28 percent (range, 14 to 48 percent) and was associated with significant delays in median time to SRE, improvements in bone pain, and improvements in global quality of life. However, there was no difference in overall survival.
+
+Other data show that bisphosphonate therapy prevents increases in pain due to progression of bone metastatic disease [19].
+
+Zoledronic acid — Zoledronic acid is a high potency bisphosphonate that can be administered over 15 minutes. Some experts prefer to administer zoledronic acid rather than denosumab, particularly for patients already receiving intravenous chemotherapy. Given there is no overall survival advantage associated with any particular agent, this is a very reasonable option.
+
+Dosing — Zoledronic acid is administered as a 4 mg infusion over 15 minutes. Treatment is usually repeated on a monthly basis.
+
+Efficacy — Zoledronic acid effectively decreases the risk of SREs in women with breast cancer and bone metastases compared to placebo [20-23]. This was shown in a trial involving 228 women where zoledronic acid resulted in [23]:
+
+●A lower rate of SREs compared to placebo (30 versus 50 percent)
+●Significant prolongation in the time to first SRE (median not reached versus 364 days)
+●No additional toxicity
+Impact on quality of life — Zoledronic acid effectively decreases pain severity and improves quality of life for patients with metastatic breast cancer involving the bones compared to placebo. For example, in the trial discussed earlier, patients who took zoledronic acid had significantly greater decreases in pain scores compared to placebo after four weeks of treatment [23].
+
+In addition, treatment appears to have a positive impact on quality of life. This was shown in a study involving over 100 patients who were administered a total of nine infusions in either a community- or hospital-based setting [24]. At the end of the study, global quality of life (assessed using the European Organization for the Research and Treatment of Cancer Quality of Life Core Questionnaire 30) was significantly improved compared to baseline by 8 percent, particularly in the domains of physical, emotional, and social functioning.
+
+Pamidronate — Pamidronate is typically only used during hospitalizations when the prolonged infusion time is not as a significant concern.
+
+Dosing — Pamidronate is administered as a 90 mg infusion over two hours, repeated every three to four weeks.
+
+Efficacy — Pamidronate consistently reduces the risk of SREs in patients with breast cancer and lytic bone metastases compared to placebo, but it has no impact on overall survival [19,25-29]. As examples:
+
+●In one trial, 380 women with osteolytic metastases who were receiving systemic chemotherapy were randomly assigned to pamidronate or placebo [25,26]. After two years of follow-up, treatment with pamidronate resulted in:
+•A significant increase in the time to first SRE compared to placebo (median, 14 versus 7 months)
+•A lower incidence of an SRE (43 versus 56 percent)
+•Significantly less increase in bone pain and deterioration of performance status
+●A separate trial included 372 women receiving endocrine therapy for metastatic breast cancer who were randomly assigned to treatment with pamidronate or placebo [27]. Pamidronate resulted in:
+•A longer time to first SRE compared to placebo (median 10 versus 7 months)
+•A lower incidence of a SRE (56 versus 67 percent)
+Zoledronic acid versus pamidronate — For patients with breast cancer, zoledronic acid appears to be more effective than pamidronate. Because it also involves a shorter infusion time, most centers utilize zoledronic acid as the preferred bisphosphonate. If zoledronic acid is not available, pamidronate is a reasonable alternative. With both agents, the potential for renal toxicity can be reduced by optimizing hydration prior to bisphosphonate therapy and avoiding concurrent nephrotoxic medications. (See "Risks of therapy with bone modifying agents in patients with advanced malignancy", section on 'Proteinuria and renal insufficiency'.)
+
+The evidence to support the administration of zoledronic acid comes from a phase III trial involving 412 women with metastatic breast cancer and osteolytic bone metastases who were randomly assigned to treatment with zoledronic acid or pamidronate [22]. The main results were:
+
+●Both agents resulted in an equivalent incidence of SREs (46 versus 50 percent).
+●After two years of therapy, zoledronic acid was associated with a lower risk of a SRE (relative risk [RR] 0.80, 95% CI 0.66-0.97) [30].
+Other bisphosphonates — Clodronate and ibandronate are approved for use in metastatic bone disease outside the United States. Oral ibandronate can be administered with similar efficacy to IV ibandronate [31]. Patients prescribed oral bisphosphonates should be counseled on the potential for gastrointestinal side effects, which may compromise patient adherence [32,33]. Further discussion of this topic is covered separately. (See "The use of bisphosphonates in postmenopausal women with osteoporosis", section on 'Gastrointestinal'.)
+
+Efficacy — Like other agents in this class, both clodronate and ibandronate are effective at reducing SREs due to bone metastases:
+
+●Clodronate has been shown to reduce the combined rate of all morbid SREs by approximately 30 percent compared to placebo [34-36].
+●Ibandronate results in a significant reduction in the overall risk of a SRE (hazard ratio [HR] 0.62) compared to placebo, including the need for radiation therapy or surgery for painful bone metastases [37].
+Oral versus IV bisphosphonates — Although some data suggest that oral ibandronate is equivalent to the IV zoledronic acid [38], a large open label randomized trial comparing these two agents suggested that zoledronic acid may be the preferred agent. In the Zoledronic acid versus Ibandronate Comparative Evaluation (ZICE) trial, over 1400 patients with at least one radiologically confirmed bone metastasis were randomly assigned to a 96-week treatment course with either zoledronic acid (administered every four weeks) or oral ibandronate (administered daily) [39]. The main results were as follows:
+
+●The annual rates of SREs were 0.499 and 0.435 with ibandronate and zoledronic acid, respectively (rate ratio 1.15, 95% CI 0.97-1.36).
+●The rates of osteonecrosis of the jaw were similarly rare in both groups (<1 and 1 percent, respectively); however, patients treated with ibandronate had a lower incidence of nephrotoxicity (25 versus 32 percent).
+●The major grade 3/4 toxicities experienced with ibandronate and zoledronic acid included: fatigue (14 percent in both groups), increased bone pain (12 versus 13 percent), joint pain (5 and 6 percent), infection (3 and 5 percent), and nausea or vomiting (6 and 5 percent).
+The study analysis revealed the upper confidence interval to exceed the margin for non-inferiority; hence, the oral ibandronate arm was deemed inferior in reducing the frequency of SREs. These results support the use of IV zoledronic acid over oral ibandronate for women with metastatic breast cancer involving the bones. However, for patients who are at increased risk of renal toxicity and those who prefer an oral regimen for whatever reason, oral ibandronate is a reasonable alternative, wherever it is available.
+
+Is there a role for combination osteoclast inhibition? — At present, there are no prospective data evaluating either the safety or efficacy of combining denosumab with a bisphosphonate for the treatment of bone metastases. Therefore, we do not administer combined bone-modifying agents.
+
+DOSING INTERVALS — The optimal treatment interval between doses of osteoclast inhibitors in patients with metastatic bone disease from breast cancer has not been established. Therefore, we continue to dose IV bisphosphonates every three to four weeks and denosumab every four weeks.
+
+Although some prospective data suggest that longer intervals between treatments may not compromise activity [40-42], this has not been consistently demonstrated [43]. As examples:
+
+●In one trial, over 400 women were randomly assigned to treatment with zoledronic acid every 4 or 12 weeks [41]. There was no difference in the skeletal morbidity rate between the two groups (0.22 versus 0.26, respectively).
+●In another study involving patients of multiple tumor types, the rate of skeletal complications was lower in those with established zoledronic acid dosing (three to four weeks) than in those using non-recommended dosing (0.16 versus 0.31 events per month, respectively) [43].
+●A separate trial evaluated administration of treatment based on serum marker levels of bone resorption (NTX) or by standard dosing schedule [44]. Although the study closed early, the data indicate that treatment based on marker levels was not optimal; the proportion of patients experiencing a skeletal related event (SRE) was 38 and 32 percent for patients treated based on their markers or per standard of care, respectively (HR 1.41, 90% CI 0.98-2.02).
+Ongoing trials, such as the Optimize 2 trial and the Cancer and Leukemia Group B study, CALGB 70604, are addressing the issue of treatment intervals for patients on zoledronic acid. We await the results of these studies to better inform the treatment interval for patients who are on a bisphosphonate.
+
+DURATION OF THERAPY — For patients in whom osteoclast inhibitor therapy is indicated, we agree with American Society of Clinical Oncology (ASCO) guidelines and continue treatment indefinitely, in the absence of excessive toxicity and as long as treatment is consistent with both the patient’s and the clinician’s joint treatment goals [9]. Although only low-quality data are available, persistent dosing of zoledronic acid appears to result in an overall lower risk of skeletal related events (SREs) [45].
+
+Additional data suggest that a minimum duration of six months should be administered because it usually takes this amount of time on treatment before there is a demonstrable reduction in the rate of SREs [46].
+
+MONITORING THERAPY — Most clinical trials evaluating osteoclast inhibitors used the time to the first skeletal related event (SRE) as their endpoint. However, in our practice, we monitor patients serially with clinical exams and imaging to ensure there is no worsening of bony disease. For patients on active treatment, we repeat imaging approximately every 12 weeks and as clinically indicated. For patients with stable symptoms or remain asymptomatic, it is reasonable to extend the imaging intervals (eg, every 16 to 20 weeks) in the absence of overt signs or symptoms of deterioration.
+
+It is also important that patients have an adequate intake of calcium and vitamin D prior to dosing. For patients on an osteoclast inhibitor, it is our practice to assess renal function, calcium, and electrolytes (or a biochemical profile) prior to dosing and throughout. Periodically, we monitor phosphorous and magnesium as well. Monitoring serum calcium is important because both denosumab and the bisphosphonates can raise the risk of hypocalcemia. For patients on denosumab, serious symptomatic hypocalcemia can occur and fatalities have been reported [47]. For patients on a bisphosphonate, hypocalcemia can be caused by worsening renal function. Any preexisting hypocalcemia should be corrected prior to dosing.
+
+UTILIZATION — Although osteoclast inhibitors are widely available, data suggest that a large proportion of patients who are otherwise eligible for them are not receiving treatment in the most appropriate manner [4,48-50]. As examples:
+
+●In one study, approximately one-third of patients with breast cancer involving the bone did not have treatment until after a skeletal related event (SRE) [4,48].
+●A separate study consisting of 1431 women with metastatic bone disease from breast cancer demonstrated that less than 50 percent of these patients were receiving treatment with intravenous bisphosphonates [49].
+TREATMENT OF COMPLICATIONS — Patients with bone metastases are at risk for a skeletal related event (SRE) despite osteoclast inhibition. For patients who experience an SRE, treatment should be aimed at stabilizing the patient. The treatment of specific SREs is covered separately:
+
+●Extreme pain or the occurrence of pathologic fractures (see "Evaluation and management of complete and impending pathologic fractures in patients with metastatic bone disease, multiple myeloma, and lymphoma" and "Radiation therapy for the management of painful bone metastases" and "Metastatic breast cancer: Local treatment")
+●Spinal cord compression (see "Treatment and prognosis of neoplastic epidural spinal cord compression, including cauda equina syndrome", section on 'Definitive treatment')
+●Hypercalcemia of malignancy (see "Treatment of hypercalcemia")
+TREATMENT AFTER A SKELETAL RELATED EVENT
+
+For patients who have experienced a skeletal related event (SRE) while on active therapy, denosumab and the bisphosphonates effectively improve the time to subsequent SREs [4,30]. Therefore, we continue osteoclast inhibition even after a SRE.
+
+We typically continue on the same osteoclast inhibitor, although it is reasonable to change to a more potent osteoclast inhibitor. In general, the selection of the osteoclast inhibitor may be influenced by patient or physician preference as well as cost.
+
+There are only limited data to inform the choice of treatment in patients who experience an SRE while on active therapy [51,52]. A summary of this data are given below:
+
+●For patients who were previously treated with a bisphosphonate (oral or IV), denosumab may have better activity than continuation of a drug in the same class. This was shown in a randomized phase II open label clinical trial of 111 patients with metastatic bone disease (only some of whom had breast cancer) who had urinary N-telopeptide (uNTx) values above 50 nmol/L (suggesting high levels of bone turnover) while receiving intravenous bisphosphonate therapy [51]. Patients were randomly assigned to either continuation of an intravenous (IV) bisphosphonate therapy or switching to denosumab. Main results of this trial were that:
+•A significantly higher proportion of patients on denosumab had a reduction in their uNTx values to below 50 nmol/L by week 13 (71 versus 29 percent of those on an IV bisphosphonate).
+•There were fewer on-study SREs with denosumab, although this was not statistically significant (8 versus 17 percent).
+●For patients treated with an oral bisphosphonate, transitioning to IV treatment (eg, zoledronic acid) is also reasonable, especially if denosumab is not an option (eg, due to costs). In one trial, 31 women who developed one SRE on radiographic disease progression on clodronate or pamidronate were transitioned to zoledronic acid [52]. Pain scores, quality of life, and biochemical markers of bone turnover (urinary bone resorption [NTX]) were assessed at baseline, weekly during the first month, and then at week eight. Systemic treatment for their cancer was allowed only after week four from initiation of zoledronic acid. The main results were:
+•The proportion of patients experiencing a palliative response by week eight was 42 percent (13 of 31). This coincided with a significant reduction in their average pain score. These results were independent of any change in their anticancer treatment.
+•Changes in urinary NTX correlated well with improvement in pain control.
+●There are no prospective trials addressing the optimal treatment of patients who develop an SRE after initial treatment with denosumab. In general, we continue denosumab or consider transition treatment to a bisphosphonate (eg, zoledronic acid).
+NOVEL AGENTS
+
+Cabozantinib — The tyrosine kinase inhibitor cabozantinib has been shown to affect tumor as well as bone imaging results in multiple tumor types [53,54]. Clinical trials are ongoing, including a phase II study specifically in women with metastatic hormone receptor-positive breast cancer which utilizes the response rate by bone scan as the primary endpoint.
+
+Radium 223 (alpharadin) — Radium 223 dichloride is an alpha particle emitting radiopharmaceutical that is indicated for the treatment of patients with castrate resistant prostate cancer, symptomatic bone metastases, and no known visceral metastases. Radium is a bone-seeking element, and its decay allows the deposition of high energy radiation over a much shorter distance than with beta particle emitting radioisotopes, thus potentially treating tumor while minimizing toxicity to normal bone marrow. A clinical trial in women with metastatic breast cancer involving the bone has completed and we await the results of this study. (See "Bone metastases in advanced prostate cancer: Management", section on 'Radium-223'.)
+
+Src inhibitors — Preclinical data have demonstrated that Src regulates osteoclast function and is involved in signaling cascades important in the formation of the sealing zone between the osteoclast and bone matrix, which is necessary for bone resorption [55-57]. Several Src inhibitors are being evaluated as agents for the treatment of bone metastases including dasatinib and saracatinib.
+
+Cathepsin K inhibitors — Cathepsin K is a proteinase that is secreted by osteoclasts and results in bone degradation. In addition, it is also produced by cancer cells that metastasize to bone to promote cancer cell invasion [55,58,59]. A correlative study examining the effect of the cathepsin K inhibitor odanacatib demonstrated that it suppresses biochemical markers of bone resorption, N-telopeptide, similarly to that of zoledronic acid in women with breast cancer and bone metastases [60]. Although this result is encouraging, it does not appear that odanacatib is being developed for the management of bone metastases.
+
+SUMMARY AND RECOMMENDATIONS
+
+●Bone metastases in patients with metastatic breast cancer occur frequently and are associated with significant morbidity and mortality. Osteoclast inhibition has been shown to reduce the morbidity of metastatic bone disease, in particular skeletal related events (SREs), which include fracture, need for surgery or radiation to bone, spinal cord compression, and hypercalcemia of malignancy. (See "Overview of the use of osteoclast inhibitors in early breast cancer".)
+●We recommend the use of osteoclast-inhibiting therapy for women with breast cancer and evidence of bone destruction on plain radiographs, computed tomography (CT), or magnetic resonance imaging (MRI) (Grade 1A). (See 'Indications' above.)
+●For patients in whom osteoclast inhibitors is indicated, a dental exam should be performed and preexisting hypocalcemia and/or vitamin D deficiency corrected prior to initiation of treatment, and calcium and vitamin D be continued during therapy. (See 'Considerations prior to initiation of osteoclast-inhibiting therapy' above.)
+●For patients with metastases for whom therapy with an osteoclast inhibitor is indicated, we suggest denosumab rather than bisphosphonates (Grade 2B). If patients are not candidates for denosumab for whatever reason, we administer a bisphosphonate. Of the available bisphosphonates, we suggest zoledronic acid (Grade 2B). However, for patients who prefer oral therapy for whatever reason, oral ibandronate (where available) is a reasonable alternative. (See 'Treatment approach' above and 'Denosumab' above and 'Bisphosphonates' above and 'Oral versus IV bisphosphonates' above.)
+●For patients in whom osteoclast inhibitor therapy is indicated, we suggest that treatment be continued indefinitely, particularly in the absence of excessive toxicity and as long as treatment is consistent with both the patient’s and the clinician’s joint treatment goals. (See 'Duration of therapy' above.)
+●For patients who experience an urgent complication secondary to bone metastases (ie, SRE), treatment should be aimed at stabilizing the patient. (See 'Treatment of complications' above.)
+●For patients who have experienced a SRE while on osteoclast-inhibiting therapy, we suggest continuing osteoclast inhibition rather than discontinuing it (Grade 2C). (See 'Treatment after a skeletal related event' above.)

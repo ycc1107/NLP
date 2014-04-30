@@ -1,11 +1,8 @@
 from nltk.corpus import stopwords
 from nltk.tokenize import RegexpTokenizer
 from os import walk
-
 import warnings
-
 import nltk
-import operator
 import math
 import os
 import pickle
@@ -37,7 +34,7 @@ def load_obj(name):
     with open('../' + name + '.pkl', 'r') as f:
         return pickle.load(f)
 
-def main():     
+def tf_idf():
     myRootPath = "../TranningData/"
     globalWordList  = {}
     dataCounter = {}  #defaultdict(int)
@@ -46,6 +43,7 @@ def main():
         for dirname in dirnames:
             path = os.path.join(dirpath, dirname)
             counter = 0
+            print(dirname) 
             for (path, names, fileNames) in walk(path):
                 docListLen = len(fileNames)
                 for name in fileNames:
@@ -63,19 +61,18 @@ def main():
                         continue
                     idf = math.log(docListLen/float(counter))
                     dataCounter[word] = idf
-                    counter = 0
-                      
+                    counter = 0         
             globalWordList[dirname] = dataCounter
             dataCounter = {}    
-    
-    print ("******************************")
-    for item in globalWordList["globalWarmming"].items():
-        if item[0] == "global":
-            print(item)
             
-    #save_obj(globalWordList, "trainedSet" )    
-    print ("done")
-                    #tfIdf(filePath)
+    save_obj(globalWordList, "trainedSetV1" ) 
+
+def main(): 
+    #tf_idf()
+    dic = load_obj("trainedSetV1")
+
+    print (dic["Health"]["brain"])
+
             
 if __name__ =="__main__":
     main()
