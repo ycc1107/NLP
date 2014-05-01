@@ -1,6 +1,6 @@
 import nltk
 from nltk.tokenize import RegexpTokenizer
-
+from WordProcess import WordProcess
 
 class Summary():
     def __init__(self):
@@ -11,26 +11,33 @@ class Summary():
         self.__weight = {}
         self.__sent = {}
         self.__maxReturen = 0
+        self.docLen = 0
         self.result = ""
-        self.tokenizer = RegexpTokenizer('\w+')
+        self.process = WordProcess()
         
     def tf(self,target):
         counter = 0
-        for word in self.__document:
+        for word in self.__document.split(None):
+            word = self.process.processWord(word)
             if word == target:
-                counter += 1  
-        return counter / len(self.__document)
+                counter += 1
+    
+        result = counter*1.0/self.docLen
+        #print(result)                   
+        return result 
+         
     
     def tf_idf(self):  
-        
         for word in self.__document.split(None):
-            if not len(self.tokenizer.tokenize(word)):
+            
+            word = self.process.processWord(word)
+
+            if not len(word):
                 continue
             
-            word = self.tokenizer.tokenize(word)[0]       
             if word in self.__dic[self.__area]:
                 if word not in self.__weight.keys():
-                    idf = self.__dic[self.__area][word]   
+                    idf = self.__dic[self.__area][word]
             else:
                 idf = 0     
             self.__weight[word] = idf * self.tf(word)
@@ -39,23 +46,26 @@ class Summary():
         sentDetector = nltk.data.load('tokenizers/punkt/english.pickle')
         actualSentences = sentDetector.tokenize(self.__document)
         #workingSentences = [sentence.lower() for sentence in actualSentences]
-        
+
         for sentence in actualSentences:
             counter = 0
             sumWeight = 0
+            weight  = 0
             upper = -1
             lower = -1
-            for word in sentence:
-                if not len(self.tokenizer.tokenize(word)):
+            
+            for word in sentence.split(None):
+                word = self.process.processWord(word)
+                if not len(word):
                     continue
-                word = self.tokenizer.tokenize(word)[0] 
                 try:
                     sumWeight += self.__weight[word]
                     counter += 1
                 except:
                     continue
+            if counter:
+                weight = sumWeight / counter
                 
-            weight = sumWeight / counter
             if self.__maxReturen > 0:
                 if weight > upper:
                     self.__sent[self.__maxReturen] = sentence
@@ -69,9 +79,7 @@ class Summary():
                 
         for key,value in self.__sent.items():
             self.result += value
-        
-           
-            
+                        
         return self.result
             
     def simpleSummary(self,googleResult,userInput,dic,area,num = 2):
@@ -80,8 +88,8 @@ class Summary():
         self.__area = area
         self.__input = userInput
         self.__maxReturen = num
-        
+        self.docLen = len(self.__document.split(None)) * 1.0 
         self.tf_idf()
-        result = self.sentenceWeight()
         
+        result = self.sentenceWeight()             
         return result 

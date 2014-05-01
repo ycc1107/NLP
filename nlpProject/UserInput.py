@@ -1,5 +1,6 @@
 import nltk
 import pickle
+import time
 from QueryExpansion import QueryExpansion
 from HTMLClean import Clean
 from Search import Search
@@ -17,7 +18,6 @@ class UserInput():
         query = QueryExpansion()
         idf = self.loadSet("trainedSetV1")  
 
-            
         area = query.expand(userInput) 
         results = googleRes.googleAPICall(userInput)  
         # Only return 20 results
@@ -28,7 +28,10 @@ class UserInput():
         for res in results[0:length]:
             document  = cleanPage.cleanHTML(res)
             print res
+            start = time.clock()
             print summ.simpleSummary(document,userInput,idf,area,2)    
+            elapsed = (time.clock() - start)    
+            print (elapsed)
             print   
             
     def tagging(self,tokenized):
