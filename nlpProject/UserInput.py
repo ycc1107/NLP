@@ -8,10 +8,7 @@ from Summarized import Summary
     
 class UserInput():
     def result(self,userInput):
-        userInput = str(userInput)
-        #userInput = self.tagging(userInput)
-        
-        
+        userInput = str(userInput)        
         googleRes = Search()
         cleanPage = Clean()
         summ = Summary()
@@ -24,12 +21,11 @@ class UserInput():
         length = len(results)
         if len(results) > 20:
             length = 20
-            
         for res in results[0:length]:
             document  = cleanPage.cleanHTML(res)
             print res
             start = time.clock()
-            print summ.simpleSummary(document,userInput,idf,area,2)    
+            print (summ.simpleSummary(document,userInput,idf,area,1))
             elapsed = (time.clock() - start)    
             print (elapsed)
             print   

@@ -3,7 +3,7 @@ from UserInput import UserInput
 def main():
     
     test = UserInput()
-    test.result("global warming")
+    test.result("climate change")
     print "done"
     
 

@@ -11,15 +11,15 @@ class Search():
     def googleAPICall(self,userInput):  
         try:  
             userInput = urllib.quote(userInput)        
-            for i in range(0,2):
+            for i in range(0,1):
                 index = i*10+1 
-                url = ('https://scholar.googleapis.com/customsearch/v1?'    
+                url = ('https://www.googleapis.com/customsearch/v1?'    
                        'key=%s'
                        '&cx=%s'
                        '&alt=json'
-                       '&q=%s'
                        '&num=10'
-                       '&start=%d')%(self.KEY,self.CX,userInput,index)   
+                       '&start=%d'
+                       '&q=%s')%(self.KEY,self.CX,index,userInput)   
             
                 request = urllib2.Request(url)
                 response = urllib2.urlopen(request)

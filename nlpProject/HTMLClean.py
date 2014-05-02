@@ -14,7 +14,7 @@ class Clean():
         for s in temp:
             print s.getText().strip()
             
-        keyWord = {"p","b"}
+        keyWord = {"p"}
         text = ""
         contain = ""
         for key in keyWord:
@@ -24,6 +24,4 @@ class Clean():
         for s in contain:
             text = text + s.getText().strip()
             
-        #tokenizedText = nltk.word_tokenize(text)
-        #taggedText = nltk.pos_tag(tokenizedText)
         return text
