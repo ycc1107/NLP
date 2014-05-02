@@ -18,6 +18,8 @@ Query area:
 + NLP
   + 10 documents 
 
+Query expansion method: 
+
 The algorithm for summary :
 + tf-idf
 + idf = log(number documents / number of document contain the word)
