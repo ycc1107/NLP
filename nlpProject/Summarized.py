@@ -1,4 +1,5 @@
 import nltk
+import operator
 from nltk.tokenize import RegexpTokenizer
 from WordProcess import WordProcess
 
@@ -10,9 +11,9 @@ class Summary():
         self.__input = ""
         self.__weight = {}
         self.__sent = {}
-        self.__maxReturen = 0
-        self.docLen = 0
-        self.result = ""
+        self.__docLen = 0
+        self.__result = []
+        self.__tfWordCount = {}
         self.process = WordProcess()
         
     def cleanContain(self):
@@ -22,70 +23,57 @@ class Summary():
         self.__input = ""
         self.__weight = {}
         self.__sent = {}
-        self.__maxReturen = 0
+        self.__tfWordCount ={}
         self.docLen = 0
-        self.result = ""
+        self.__result = []
         self.process = WordProcess()
             
-    def tf(self,target):
-        counter = 0
+    def tfCount(self):
         for word in self.__document.split(None):
             word = self.process.processWord(word)
-            if word == target:
-                counter += 1
+            if word not in self.__tfWordCount.iterkeys():
+                self.__tfWordCount[word] = 1
+            else:
+                self.__tfWordCount[word] += 1
     
-        result = counter*1.0/self.docLen
-        
-        return result 
-         
-    def tf_idf(self): 
-        for word in self.__document.split(None):
-            idf = 0   
-            word = self.process.processWord(word)
-            if word in self.__weight.keys():
-                continue
-            if not len(word):
-                continue
-            if word in self.__dic[self.__area]:
-                idf = self.__dic[self.__area][word]
-                   
-            self.__weight[word] = idf * self.tf(word)
                 
     def sentenceWeight(self):
+        upperband = 0
+        lowerband = 0
         sentDetector = nltk.data.load('tokenizers/punkt/english.pickle')
         actualSentences = sentDetector.tokenize(self.__document)
+        
         for sentence in actualSentences:
             counter = 0
             sumWeight = 0
-            weight  = 0
-            upper = -1
-            lower = -1
+            sentenceWeight  = 0
+            idf = 0
+            
             for word in sentence.split(None):
                 word = self.process.processWord(word)
-                if not len(word):
-                    continue
-                try:
-                    sumWeight += self.__weight[word]
-                    counter += 1
-                except:
-                    continue
-            if counter:
-                weight = sumWeight / counter
-                
-            if self.__maxReturen > 0:
-                if weight > upper:
-                    self.__sent[self.__maxReturen] = sentence
-                    self.__maxReturen -=  1
-                    upper = weight
-                elif weight < upper and weight > lower:
-                    self.__sent[self.__maxReturen] = sentence
-                    self.__maxReturen -= 1
-                    lower = weight
-            
-        for key,value in self.__sent.items():
-            self.result += value
+                weight = 0
+                if word in self.__dic[self.__area]:
+                    idf = self.__dic[self.__area][word]
+                    if idf != 0:
+                        # augmented frequency, too prevent a bias towards longer documents
+                        tf = 0.5 + (0.5 * self.__tfWordCount[word] / self.__docLen)
+                        weight = idf * tf
                         
-        return self.result
+                sumWeight += weight
+                counter += 1
+            if counter:
+                sentenceWeight = sumWeight / counter
+            if sentenceWeight > upperband:
+                if len(self.__result) >= 1:
+                    t = self.__result.pop(0)
+                self.__result.append(sentence)
+                upperband = sentenceWeight
+            elif sentenceWeight < upperband and sentenceWeight  > lowerband:
+                if len(self.__result) >=2:
+                    self.__result.pop(1)
+                self.__result.append(sentence)
+                lowerband = sentenceWeight
+                
             
     def simpleSummary(self,googleResult,userInput,dic,area,num = 2):
         self.cleanContain()
@@ -94,12 +82,16 @@ class Summary():
         self.__dic = dic
         self.__area = area
         self.__input = userInput
-        self.__maxReturen = num
-        self.docLen = len(self.__document.split(None)) * 1.0 
-        self.tf_idf()
+        self.__docLen = len(self.__document.split(None)) * 1.0 
         
-        tempResult = self.sentenceWeight() 
+        self.tfCount()
+        self.sentenceWeight()
+        
+        tempResult = ""
         result = ""
+        for sentence in self.__result :
+            print sentence
+            tempResult += sentence+" "
         if tempResult.split(None) > 23:
             for word in tempResult.split(None)[0:22]:
                 result += word+" "
