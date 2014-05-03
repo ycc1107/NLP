@@ -90,11 +90,12 @@ class Summary():
         tempResult = ""
         result = ""
         for sentence in self.__result :
-            print sentence
             tempResult += sentence+" "
         if tempResult.split(None) > 23:
             for word in tempResult.split(None)[0:22]:
                 result += word+" "
+            result +="..."
         else:
-            result  = tempResult          
+            result  = tempResult
+          
         return result 
