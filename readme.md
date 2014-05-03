@@ -12,11 +12,11 @@ Goal:
 
 Query area:
 + Health
-  + 35 documents  
+  + 25 documents  
 + Global Warming
-  + 40 documents 
+  + 49 documents 
 + NLP
-  + 30 documents 
+  + 20 documents 
 
 Query expansion method: 
 
