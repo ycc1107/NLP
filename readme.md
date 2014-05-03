@@ -22,9 +22,9 @@ Query expansion method:
 
 The algorithm for summary :
 + tf-idf
-+ idf = log(number documents / number of document contain the word)
++ idf = log(total documents / 1+ number of document contain the word)
 + the documents for training idf got from websites(web crawling) and storage in training folder
-+ tf = the number of the word appear in document / the number of the words in document (the document is for summary)
++ tf = 0.5 + (0.5 *word frequency/ document words count)
 + tf-idf socre = tf * idf
 + sentence weigth = sum of tf-idf socre of all the word in the sentence / number of words in the sentence
 + the return summary is the two have the highest weigth sentence
