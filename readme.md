@@ -43,10 +43,10 @@ Bing API, retrieve line from the API, and retrieve the documents that these line
 will analyze there documents to generate snippets.
 
 
-Google result sinnpet is the first sentence of wiki page. The project result is the highest weighted sentence from page.
+Google result snippet is the first sentence of wiki page. The project result is the highest weighted sentence from page.
 
 
-Result from prject:
+Result from project:
 + Title :
   Climate change - Wikipedia, the free encyclopedia
 + Link :
