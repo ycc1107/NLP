@@ -26,8 +26,8 @@ The algorithm for summary :
 + the documents for training idf got from websites(web crawling) and storage in training folder
 + tf = 0.5 + (0.5 *word frequency/ document words count)
 + tf-idf socre = tf * idf
-+ sentence weigth = sum of tf-idf socre of all the word in the sentence / number of words in the sentence
-+ the return summary is the two have the highest weigth sentence
++ sentence wieght = sum of tf-idf score of all the word in the sentence / number of words in the sentence
++ the return summary is the two have the highest wieght sentence
 
 
 
@@ -43,25 +43,19 @@ Bing API, retrieve line from the API, and retrieve the documents that these line
 will analyze there documents to generate snippets.
 
 
-Google result snippet is the first sentence of wiki page. The project result is the highest weighted sentence from page.
-
+User query:
+"the top 10 climate change effect"
+Link:
+http://www.discovery.com/tv-shows/curiosity/topics/worst-effects-global-warming.htm
 
 Result from project:
-+ Title :
-  Climate change - Wikipedia, the free encyclopedia
-+ Link :
-  http://en.wikipedia.org/wiki/Climate_change
 + Summary :
-  [34][35] Some studies point toward solar radiation increases from cyclical sunspot activity affecting global warming, and climate may be influenced by the ...
+  Extreme weather can create extreme financial setbacks. Governments suffer the consequences of diminished tourism and industrial profits, soaring energy, food and water demands, disaster cleanup and border tensions.And ignoring ...
 
 
 Result from Google:
-+ Title :
-  Climate change - Wikipedia, the free encyclopedia
-+ Link :
-  http://en.wikipedia.org/wiki/Climate_change
 + Summary :
-  Climate change is a significant and lasting change in the statistical distribution of weather patterns over periods ranging from decades to millions of years.
+  In this article, we'll look at 10 of the worst effects of climate change, including some immediate effects observed and some hypothesized ...
 
 
 
