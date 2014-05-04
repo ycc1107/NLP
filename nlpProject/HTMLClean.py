@@ -1,14 +1,19 @@
 from bs4 import BeautifulSoup
+import mechanize
 import urllib2
 
 class Clean():
     def cleanHTML(self,url):
         try:
-            page = urllib2.urlopen(url).read()
+            br = mechanize.Browser()
+            br.set_handle_robots(False)
+            br.addheaders = [("Uder-agent","Firefox")]
+            page = br.open(url).read()
         except:
             pass
             print "error"
             return ""
+        
         soup = BeautifulSoup(page)
         temp = soup.find_all("title")
         for s in temp:

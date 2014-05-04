@@ -30,8 +30,7 @@ class Search():
                     self.result.append(web["link"])
         except:
             print ("search error")
-            self.result.append("http://en.wikipedia.org/wiki/Climate_change")
-            
+                
         return self.result
             
             

@@ -47,7 +47,7 @@ class Summary():
             counter = 0
             sumWeight = 0
             sentenceWeight  = 0
-            idf = 0
+            idf = 0.0
             
             for word in sentence.split(None):
                 word = self.process.processWord(word)
@@ -57,7 +57,9 @@ class Summary():
                     if idf != 0:
                         # augmented frequency, too prevent a bias towards longer documents
                         tf = 0.5 + (0.5 * self.__tfWordCount[word] / self.__docLen)
-                        weight = idf * tf
+                    if not isinstance(idf, (int, long, float, complex)):
+                        idf = 0.0;
+                    weight = idf * tf
                         
                 sumWeight += weight
                 counter += 1
@@ -91,8 +93,8 @@ class Summary():
         result = ""
         for sentence in self.__result :
             tempResult += sentence+" "
-        if tempResult.split(None) > 23:
-            for word in tempResult.split(None)[0:22]:
+        if tempResult.split(None) > 30:
+            for word in tempResult.split(None)[0:29]:
                 result += word+" "
             result +="..."
         else:

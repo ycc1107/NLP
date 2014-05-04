@@ -1,5 +1,4 @@
 from nltk.corpus import stopwords
-from nltk.tokenize import RegexpTokenizer
 from os import walk
 from WordProcess import WordProcess
 
@@ -18,15 +17,12 @@ def is_binary(filename):
                 return True
     return False
 
-
 def getWordList(path,dataCounter):
-    #tokenizer = RegexpTokenizer('\w+')
     wordProcess = WordProcess()
-    f = open(path,"rb").read()     
-   
-    doc = wordProcess.processWord(f)
-    
+    doc = open(path,"rb").read().split(None)     
     for word in doc: 
+        word = wordProcess.processWord(word)
+        print (word)
         if len(word) and len(word) < 50:
             with warnings.catch_warnings(record=True) as w:                
                 if word.lower() not in stopwords.words():
@@ -70,7 +66,7 @@ def tf_idf():
                             counter += 1
                     if counter == 0:
                         continue
-                    idf = math.log(docListLen/float(counter))
+                    idf = math.log(docListLen/(1+float(counter)))
                     dataCounter[word] = idf
                     counter = 0         
             globalWordList[dirname] = dataCounter
@@ -81,7 +77,7 @@ def tf_idf():
 def main(): 
     
     start = time.clock()
-    #tf_idf()
+    tf_idf()
     elapsed = (time.clock() - start)
     #print (elapsed)
     dic = load_obj("trainedSetV1")
