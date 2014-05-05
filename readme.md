@@ -19,6 +19,7 @@ Query area:
   + 20 documents 
 
 Query expansion method: 
++  probabilistic relevance model
 
 The algorithm for summary :
 + tf-idf
@@ -43,9 +44,9 @@ Bing API, retrieve line from the API, and retrieve the documents that these line
 will analyze there documents to generate snippets.
 
 
-User query:
++ User query:
 "the top 10 climate change effect"
-Link:
++ Link:
 http://www.discovery.com/tv-shows/curiosity/topics/worst-effects-global-warming.htm
 
 Result from project:
