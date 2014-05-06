@@ -20,6 +20,7 @@ Query area:
 
 Query expansion method: 
 +  probabilistic relevance model
++  sim(d,q) = P(R|d) / P(!R|d)
 
 The algorithm for summary :
 + tf-idf
