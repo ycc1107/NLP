@@ -16,8 +16,8 @@ class Clean():
         
         soup = BeautifulSoup(page)
         temp = soup.find_all("title")
-        for s in temp:
-            print s.getText().strip()
+        #for s in temp:
+            #print s.getText().strip()
             
         keyWord = {"p"}
         text = ""
