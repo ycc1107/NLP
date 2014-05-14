@@ -10,14 +10,13 @@ class Clean():
             br.addheaders = [("Uder-agent","Firefox")]
             page = br.open(url).read()
         except:
-            pass
-            print "error"
-            return ""
+            return ("","")
         
         soup = BeautifulSoup(page)
         temp = soup.find_all("title")
-        #for s in temp:
-            #print s.getText().strip()
+        title = ""
+        for s in temp:
+            title = title + s.getText().strip()
             
         keyWord = {"p"}
         text = ""
@@ -29,4 +28,4 @@ class Clean():
         for s in contain:
             text = text + s.getText().strip()
             
-        return text
+        return (text,title)

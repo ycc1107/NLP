@@ -13,9 +13,11 @@ class View(flask.views.MethodView):
         
     def post(self):
         test = UserInput()
-        result = test.result(str(flask.request.form['expression']))
-        #flask.Flash(result)
-        return flask.render_template('index.html', list=result)
+        query = str(flask.request.form['expression'])
+        results = test.result(query)
+        #flask.flash(result)
+        resultsCountRange = range(1,len(results))
+        return flask.render_template('index.html', resultsCount = resultsCountRange,results = results,query = query.split(None))
 
 
 app.add_url_rule("/",view_func=View.as_view('main'),methods=['GET','POST'])

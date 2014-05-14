@@ -23,7 +23,8 @@ class UserInput():
         if len(results) > 20:
             length = 20
         for res in results[0:length]:
-            document  = cleanPage.cleanHTML(res)
+            document,title = cleanPage.cleanHTML(res)
+            result.append(title)
             result.append(res)
             result.append(summ.simpleSummary(document,userInput,idf,area,1))
         return (result)
