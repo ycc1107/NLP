@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<style>
+			.backgroundImage
+			{
+				background-color:silver;
+			}
+			.center
+			{
+				text-align:center;
+			}
+			.left
+			{
+				text-align:left;
+			}
+			h1 {
+			float:center;
+			  margin:0px;
+			  
+			}
+			.right {
+			float:right;
+			  margin:0px;
+			 
+			}
+		</style>
+	</head>
+    <title>NLP PROJECT</title>
+    <body class = "backgroundImage">
+		<div class ="center">
+				<div style="border-bottom:1px solid black; overflow:hidden;"> 
+					<div align="center"><h1>NLP PROJECT SEARCH</h1></div>
+					<div class="center"><a href = "/">[back]</a></div>
+				</div>
+				<br>
+				<img src="http://galaxyanfinance.files.wordpress.com/2014/05/outline.png" alt="outline" width="600" height="420">
+        		<p>
+					<b>The academic project</b><br>
+					language: python<br>
+					API : google customer search api for python<br><br>
+					<b>Goal: </b><br>
+					To abstract meaning of user input and expend input pass the input <br>
+					to google return the summary of search. Search execute by google<br><br>
+
+					<b>Query expansion method:</b><br><br>
+
+					<b>probabilistic relevance model</b><br>
+					sim(d,q) = P(R|d) / P(!R|d)<br><br>
+					
+					<b>The algorithm for summary :</b>
+					<li>tf-idf</li>
+					<li>idf = log(total documents / 1+ number of document contain the word)</li>
+					<li>the documents for training idf got from websites(web crawling) and storage in training folder</li>
+					<li>tf = 0.5 + (0.5 *word frequency/ document words count)</li>
+					<li>tf-idf socre = tf * idf</li>
+					<li>sentence wieght = sum of tf-idf score of all the word in the sentence / number of words in the sentence</li>
+					<li>the return summary is the two have the highest wieght sentence</li><br><br>
+					
+					<b>The Project requirment:</b><br>
+
+					web application: a web page for submitting serch queries and display results. This page should be hosted on a server, either local or on the 	web. It should have the functionality of submitting the search query to the service for getting search results and annotating with snippets and getting results 	from this service. the web application can be implemented in any language. Snippet generating service will consist of three parts:document retrieval 	service,document analysis service , and snippet delivery service. The document retrieval service will accept search query requests,make calls to Google or Bing 	API, retrieve line from the API, and retrieve the documents that these line point to. The document analysis service will analyze there documents to generate 	snippets.
+				</p>
+
+			<a href = "https://github.com/ycc1107/NLP">The GITHUB LINK FOR CODE AND DETAIL</a>		
+    </body>
+</html>
