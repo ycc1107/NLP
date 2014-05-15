@@ -1,7 +1,7 @@
 import nltk
 import pickle
 import time
-from QueryExpansion import QueryExpansion
+from QueryExpansion import QueryClassifier
 from HTMLClean import Clean
 from Search import Search
 from Summarized import Summary
@@ -14,7 +14,7 @@ class UserInput():
         googleRes = Search()
         cleanPage = Clean()
         summ = Summary()
-        query = QueryExpansion()
+        query = QueryClassifier()
         queryExpand = QueryExpansionProcess()
         expandedQuery = queryExpand.expand(userInput)
         idf = self.loadSet("trainedSetV1")  
