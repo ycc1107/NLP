@@ -14,12 +14,15 @@ class View(flask.views.MethodView):
         return flask.render_template('index.html')
         
     def post(self):
+        answerable = 0;
         test = UserInput()
         query = str(flask.request.form['expression'])
-        results = test.result(query)
+        results,answer = test.result(query)
         #flask.flash(result)
         resultsCountRange = range(1,len(results))
-        return flask.render_template('index.html', resultsCount = resultsCountRange,results = results,query = query.split(None))
+        if len(answer) > 5:
+            answerable = 1
+        return flask.render_template('index.html', resultsCount = resultsCountRange,results = results,query = query.split(None),answer = answer,answerable=answerable)
     
 class About(flask.views.MethodView):
     def get(self):

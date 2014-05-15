@@ -6,10 +6,12 @@ from HTMLClean import Clean
 from Search import Search
 from Summarized import Summary
 from queryProcess import QueryExpansionProcess
-    
+from Answer import AnswerQuertion 
+
 class UserInput():
     def result(self,userInput):
         result = []
+        qna = ""
         userInput = str(userInput)        
         googleRes = Search()
         cleanPage = Clean()
@@ -18,7 +20,7 @@ class UserInput():
         queryExpand = QueryExpansionProcess()
         expandedQuery = queryExpand.expand(userInput)
         idf = self.loadSet("trainedSetV1")  
-
+        answer = AnswerQuertion()
         area = query.expand(userInput) 
         results = googleRes.googleAPICall(userInput)  
         # Only return 20 results
@@ -28,10 +30,12 @@ class UserInput():
         
         for res in results[0:length]:
             document,title = cleanPage.cleanHTML(res)
+            if answer.isWikipage(res,document):
+               qna = answer.answer()
             result.append(title)
             result.append(res)
             result.append(summ.simpleSummary(document,userInput,idf,area,expandedQuery))
-        return (result)
+        return (result,qna)
             
               
             
