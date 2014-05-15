@@ -61,8 +61,10 @@ Result from Google:
 + Summary :
   In this article, we'll look at 10 of the worst effects of climate change, including some immediate effects observed and some hypothesized ...
 
-
-
+How to run the code:
++ UI.py generate the webpage to display the result 
++ main.py output in local console 
+ 
 
 
 
