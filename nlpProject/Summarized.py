@@ -62,7 +62,8 @@ class Summary():
                     if not isinstance(idf, (int, long, float, complex)):
                         idf = 0.0;
                     if word in self.__expandedQuery:
-                        addWeight = 1.05
+                        addWeight = 1.06
+                        
                     
                     weight = idf * tf * addWeight
                         
