@@ -5,6 +5,7 @@ from QueryExpansion import QueryExpansion
 from HTMLClean import Clean
 from Search import Search
 from Summarized import Summary
+from queryProcess import QueryExpansionProcess
     
 class UserInput():
     def result(self,userInput):
@@ -14,6 +15,8 @@ class UserInput():
         cleanPage = Clean()
         summ = Summary()
         query = QueryExpansion()
+        queryExpand = QueryExpansionProcess()
+        expandedQuery = queryExpand.expand(userInput)
         idf = self.loadSet("trainedSetV1")  
 
         area = query.expand(userInput) 
@@ -22,11 +25,12 @@ class UserInput():
         length = len(results)
         if len(results) > 20:
             length = 20
+        
         for res in results[0:length]:
             document,title = cleanPage.cleanHTML(res)
             result.append(title)
             result.append(res)
-            result.append(summ.simpleSummary(document,userInput,idf,area,1))
+            result.append(summ.simpleSummary(document,userInput,idf,area,expandedQuery))
         return (result)
             
               
