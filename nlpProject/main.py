@@ -1,3 +1,5 @@
+#this is the entry code for local console running
+
 from UserInput import UserInput         
 
 def main():

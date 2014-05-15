@@ -2,6 +2,7 @@ import nltk
 import operator
 from nltk.tokenize import RegexpTokenizer
 from WordProcess import WordProcess
+from queryProcess import QueryExpansionProcess
 
 class Summary():
     def __init__(self):
@@ -47,6 +48,7 @@ class Summary():
             counter = 0
             sumWeight = 0
             sentenceWeight  = 0
+            addWeight = 1
             idf = 0.0
             
             for word in sentence.split(None):
@@ -59,7 +61,11 @@ class Summary():
                         tf = 0.5 + (0.5 * self.__tfWordCount[word] / self.__docLen)
                     if not isinstance(idf, (int, long, float, complex)):
                         idf = 0.0;
-                    weight = idf * tf
+                    if word in self.__expandedQuery:
+                        addWeight = 1.06
+                        
+                    
+                    weight = idf * tf * addWeight
                         
                 sumWeight += weight
                 counter += 1
@@ -77,7 +83,7 @@ class Summary():
                 lowerband = sentenceWeight
                 
             
-    def simpleSummary(self,googleResult,userInput,dic,area,num = 2):
+    def simpleSummary(self,googleResult,userInput,dic,area,expandedQuery,num = 2):
         self.cleanContain()
         
         self.__document = googleResult
@@ -85,6 +91,7 @@ class Summary():
         self.__area = area
         self.__input = userInput
         self.__docLen = len(self.__document.split(None)) * 1.0 
+        self.__expandedQuery = expandedQuery
         
         self.tfCount()
         self.sentenceWeight()
