@@ -2,6 +2,7 @@ from nltk.corpus import stopwords
 from os import walk
 from WordProcess import WordProcess
 
+
 import re
 import warnings
 import nltk
@@ -16,7 +17,14 @@ def is_binary(filename):
             if '\0' in block:
                 return True
     return False
+def save_obj(obj, name ):
+    with open(name + '.pkl', 'wb') as f:
+        pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)  
 
+def load_obj(name):
+    with open(name + '.pkl', 'r') as f:
+        return pickle.load(f)
+        
 def getWordList(path,dataCounter):
     wordProcess = WordProcess()
     doc = open(path,"rb").read().split(None)     
@@ -33,22 +41,19 @@ def getWordList(path,dataCounter):
                     dataCounter[word]  =""     
     return dataCounter
 
-def save_obj(obj, name ):
-    with open( name + '.pkl', 'wb') as f:
-        pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)            
-
 def tf_idf():
-    myRootPath = "TrainningData/"
+    myRootPath = "../TrainningData/"
+    doucmentSize = 0
     globalWordList  = {}
     dataCounter = {}  #defaultdict(int)
-
+    for (dirpath, dirnames, filenames) in walk("TrainningData/"):
+        print (dirpath)
     for (dirpath, dirnames, filenames) in walk(myRootPath):
-        #print dirpath
         for dirname in dirnames:
             path = os.path.join(dirpath, dirname)
             counter = 0
+            print(dirname) 
             for (path, names, fileNames) in walk(path):
-                
                 docListLen = len(fileNames)
                 for name in fileNames:
                     filePath = os.path.join(path, name)
@@ -58,27 +63,29 @@ def tf_idf():
                 for (word,value) in dataCounter.items():
                     for name in fileNames: 
                         filePath = os.path.join(path, name)
-                        f = open(filePath).read()
-                        if word in f:
-                            counter += 1
+                        f = open(filePath).read().split(None)
+                        doucmentSize = len(f)
+                        print doucmentSize
+                        for s in f:
+                            if word == s:
+                                counter += 1
                     if counter == 0:
                         continue
-                    idf = math.log(docListLen/(1+float(counter)))
-                    dataCounter[word] = idf
+                    dataCounter[word] = 1.0*counter/ (1.0*doucmentSize)
                     counter = 0         
             globalWordList[dirname] = dataCounter
             dataCounter = {}    
             
     save_obj(globalWordList, "classiferSetV1" ) 
 
-def main(): 
-    start = time.clock()
-    tf_idf()
-    elapsed = (time.clock() - start)
+def main():
+     
+    #tf_idf()
     #print (elapsed)
-    #dic = load_obj("trainedSetV1")
-    #print(dic["globalWarmming"]["Atmospheric"])
-
+    dic = load_obj("classiferSetV1")
+    print(dic["globalWarmming"]["store"])
+    
+    print ("done")
             
 if __name__ =="__main__":
     main()
