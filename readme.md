@@ -12,15 +12,16 @@ Goal:
 
 Query area:
 + Health
-  + 25 documents  
+  + 50 documents  
 + Global Warming
   + 49 documents 
 + NLP
-  + 20 documents 
+  + 50 documents 
 
 Query expansion method: 
-+  probabilistic relevance model
-+  sim(d,q) = P(R|d) / P(!R|d)
++  using synonym of non STOP word in query to expand query
++  query classify to one of the three cartgories (NLP,Healt,Global Warming)
+  + The classifier is per-calculated 
 
 The algorithm for summary :
 + tf-idf
@@ -28,6 +29,7 @@ The algorithm for summary :
 + the documents for training idf got from websites(web crawling) and storage in training folder
 + tf = 0.5 + (0.5 *word frequency/ document words count)
 + tf-idf socre = tf * idf
++ if the word is in the query or expanded query, its score would be increase 5%
 + sentence wieght = sum of tf-idf score of all the word in the sentence / number of words in the sentence
 + the return summary is the two have the highest wieght sentence
 
