@@ -4,8 +4,8 @@ import simplejson
 
 class Search():
     def __init__(self):
-        self.KEY = "AIzaSyC5WA2gfeLrJrXRvhDkaAuKHLGiPGSpuqY"
-        self.CX = "015476964111987883949:xuenin0mbdu"
+        self.KEY = 
+        self.CX = 
         self.result = []
         
     def googleAPICall(self,userInput):  
