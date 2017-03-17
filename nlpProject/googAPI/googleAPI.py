@@ -31,8 +31,8 @@ def cleanHTML(self,url):
 
 def googleAPICall():    
     userInput = urllib.quote("global warming")    
-    KEY = "AIzaSyC5WA2gfeLrJrXRvhDkaAuKHLGiPGSpuqY"
-    CX = "015476964111987883949:xuenin0mbdu"
+    KEY = 
+    CX = 
     
     f = open("linkContain.txt","wb")
     
